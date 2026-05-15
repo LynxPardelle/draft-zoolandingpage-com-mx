@@ -1,0 +1,592 @@
+{
+  "version": 1,
+  "pageId": "default",
+  "domain": "zoolandingpage.com.mx",
+  "lang": "es",
+  "dictionary": {
+    "hero": {
+      "title": "Convierte visitas en clientes con una Landing Page rápida, clara y medible",
+      "subtitle": "Lanza tu Landing Page Optimizada rápidamente, mide desde el primer día y mejora con datos reales.",
+      "description": "Suscripción desde 900 MXN/mes. Incluye dominio, alojamiento y medición en la nube. Diseño alineado a tu marca, optimización para buscadores y llamados a la acción visibles para impulsar el contacto.",
+      "primary": {
+        "label": "Hablar por WhatsApp",
+        "trackLabel": "cta_whatsapp_hero"
+      },
+      "secondary": {
+        "label": "Ver cómo funciona",
+        "trackLabel": "cta_demo_hero"
+      },
+      "badges": [
+        "Más cierres de venta",
+        "Velocidad con carga en < 3s",
+        "Medición desde el día 1",
+        "ES/EN opcional",
+        "Accesible para todas las personas"
+      ],
+      "badgesLabel": "Los distintivos que tendrá tu nueva landing page:",
+      "mockup": {
+        "url": "🔒 https://tu-negocio.com",
+        "logo": "LOGO",
+        "contact": "CONTACTO",
+        "buyButton": "COMPRAR",
+        "demoButton": "DEMO",
+        "ctaButton": "SOLICITAR INFO",
+        "badges": {
+          "conversion": "Conversión",
+          "speed": "Velocidad",
+          "seoOptimized": "SEO Optimizado",
+          "mobileResponsive": "100% Móvil"
+        }
+      },
+      "floatingMetrics": {
+        "speed": "Velocidad",
+        "conversion": "Conversión",
+        "seoOptimized": "SEO Optimizado",
+        "mobileResponsive": "100% Móvil"
+      }
+    },
+    "featuresSection": {
+      "title": "Beneficios clave para tu negocio",
+      "subtitle": "Claridad, velocidad y medición desde el primer día para convertir visitas en clientes con tu landing page."
+    },
+    "features": [
+      {
+        "icon": "home",
+        "title": "¿Qué es una Landing Page Optimizada?",
+        "description": "Es una página enfocada en un solo objetivo: convertir visitas en clientes. Evita distracciones y guía al visitante paso a paso hasta el contacto o la compra.",
+        "benefits": [
+          "Un objetivo claro: pedir información, comprar o agendar una cita",
+          "3–5x más conversión que sitios con muchas opciones",
+          "Mensaje directo sin ruido ni pasos innecesarios",
+          "Llamadas a la acción visibles en los momentos correctos",
+          "Carga rápida y navegación simple en móvil y escritorio"
+        ]
+      },
+      {
+        "icon": "filter_alt",
+        "title": "Enfoque en conversiones",
+        "description": "Diseñada como embudo de ventas: mensajes claros, pruebas sociales y llamados a la acción que empujan al siguiente paso.",
+        "benefits": [
+          "Genera contactos y oportunidades reales",
+          "Menos fricción, más clics en tus botones",
+          "Beneficios de negocio por encima de tecnicismos",
+          "WhatsApp y llamadas a la acción siempre a la vista",
+          "Lista para campañas publicitarias y redes sociales"
+        ]
+      },
+      {
+        "icon": "analytics",
+        "title": "Medición desde el día 1",
+        "description": "Capturamos visitas, clics y avance de lectura. Sabes qué partes funcionan y dónde mejorar para vender más.",
+        "benefits": [
+          "Eventos clave: llamadas a la acción y contacto por WhatsApp",
+          "Datos de lectura: qué ven, qué leen y dónde abandonan",
+          "Base para optimizar textos, secciones y formularios"
+        ]
+      },
+      {
+        "icon": "cloud",
+        "title": "Poder de la Nube con Amazon Web Services (AWS)",
+        "description": "Disponibilidad 24/7 y velocidad global sin servidores propios. Usamos AWS, la nube confiable que usan millones de empresas multinacionales.",
+        "benefits": [
+          "Carga en < 3s desde cualquier lugar",
+          "Certificado de seguridad (SSL) incluido: candado de seguridad para generar confianza con los usuarios",
+          "Escala automática en picos de tráfico",
+          "CDN global para máxima velocidad y conexión desde cada rincón del mundo.",
+          "Monitoreo 24/7 y alta disponibilidad",
+          "Infraestructura de nivel empresarial mundial"
+        ]
+      },
+      {
+        "icon": "saved_search",
+        "title": "Rápida, estable y lista para buscadores",
+        "description": "Base moderna con datos estructurados para mejor visibilidad en los buscadores. Rápida, estable y lista para crecer.",
+        "benefits": [
+          "Menos abandonos en móvil y escritorio",
+          "Optimización para que te encuentren los buscadores fácilmente, usando datos estructurados",
+          "Certificados de seguridad (SSL) y disponibilidad constante",
+          "Escalable en la nube cuando lo necesites"
+        ]
+      },
+      {
+        "icon": "psychology",
+        "title": "Contenido y mejoras asistidas por IA",
+        "description": "Propuestas y textos asistidos por IA, siempre revisados por humanos. Más variantes y mejores opciones en menos tiempo.",
+        "benefits": [
+          "Iteraciones rápidas guiadas por datos",
+          "Textos claros y orientados a conversión",
+          "Visuales alineados a tu marca",
+          "Optimización continua opcional"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "icon": "rocket_launch",
+        "title": "Landing Page Optimizada",
+        "description": "Publica en días una landing rápida, clara y medible. Diseñada para convertir visitas en clientes reales.",
+        "benefits": [
+          "Diseño adaptable a móvil, tablet y escritorio",
+          "Carga rápida y experiencia fluida",
+          "SEO básico y datos estructurados",
+          "Medición desde el día 1 (clics y contacto)",
+          "WhatsApp y llamadas a la acción estratégicamente ubicados"
+        ],
+        "color": "linkColor",
+        "buttonLabel": "Pedir información"
+      },
+      {
+        "icon": "trending_up",
+        "title": "Optimización y análisis",
+        "description": "Mejora continua con base en datos reales: pruebas A/B, ajustes de contenido y priorización por impacto.",
+        "benefits": [
+          "Optimización de llamadas a la acción y flujo de ventas",
+          "Recomendaciones accionables",
+          "Pruebas A/B y cambios orientados a resultados (extra)",
+          "Reportes simples con métricas clave (extra)"
+        ],
+        "color": "secondaryAccentColor",
+        "buttonLabel": "Pedir información"
+      },
+      {
+        "icon": "groups",
+        "title": "Acompañamiento y soporte",
+        "description": "Acompañamiento de principio a fin: contenidos, estilo, publicación y mantenimiento básico.",
+        "benefits": [
+          "Asesoría de contenidos y estructura",
+          "Personalización visual (modo claro/oscuro y colores)",
+          "Publicación en servidor confiable con certificados de seguridad (SSL).",
+          "Soporte y mejoras constantes."
+        ],
+        "color": "accentColor",
+        "buttonLabel": "Pedir información"
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "María González",
+        "role": "Directora de Marketing",
+        "company": "TechStart Solutions",
+        "content": "En tres meses subimos la tasa de conversión y bajó el costo por contacto. Claridad y velocidad marcan la diferencia.",
+        "rating": 5,
+        "avatar": "👩‍💼",
+        "verified": true
+      },
+      {
+        "name": "Carlos Rodríguez",
+        "role": "CEO",
+        "company": "Innovate Commerce",
+        "content": "En 60 días recuperamos la inversión. La medición nos permitió optimizar campañas sin gastar de más.",
+        "rating": 5,
+        "avatar": "👨‍💼",
+        "verified": true
+      },
+      {
+        "name": "Ana Fernández",
+        "role": "Fundadora",
+        "company": "Creative Studio",
+        "content": "Mensaje claro, pruebas sociales y llamadas a la acción visibles: más consultas reales y mejor seguimiento.",
+        "rating": 4,
+        "avatar": "👩‍🎨"
+      }
+    ],
+    "processSection": {
+      "title": "Cómo lo hacemos",
+      "sidebarTitle": "Nuestro Proceso",
+      "detailedDescriptionLabel": "Descripción Detallada:",
+      "deliverablesLabel": "Entregables:"
+    },
+    "process": [
+      {
+        "step": 1,
+        "title": "Descubrimiento",
+        "summary": "Entendemos objetivos, propuesta de valor y a quién quieres llegar.",
+        "content": "Reunión breve para conocer tu negocio, propuesta de valor y audiencia. Definimos mensajes y priorizamos lo esencial para lanzar rápido.",
+        "meta": "1-3 días hábiles",
+        "detailItems": [
+          "Resumen claro de objetivos",
+          "Mensajes clave y estructura sugerida",
+          "Checklist de requisitos"
+        ],
+        "isActive": true
+      },
+      {
+        "step": 2,
+        "title": "Prototipo rápido con IA",
+        "summary": "Te mostramos un demo navegable con textos y diseño inicial.",
+        "content": "IA + revisión humana para un demo con textos, colores y estructura visual. Verás cómo quedaría tu landing.",
+        "meta": "3-5 días hábiles",
+        "detailItems": [
+          "Demo navegable",
+          "Textos orientados a conversión",
+          "Diseño base y estilos",
+          "Medición básica lista desde el inicio"
+        ],
+        "isActive": false
+      },
+      {
+        "step": 3,
+        "title": "Revisión y cambios",
+        "summary": "Revisamos juntos y ajustamos lo que más impacta en resultados.",
+        "content": "Retroalimentación breve, priorizamos cambios de mayor impacto para alinear mensaje y diseño.",
+        "meta": "1-5 días hábiles",
+        "detailItems": [
+          "Lista de cambios priorizados",
+          "Plan breve para implementar mejoras"
+        ],
+        "isActive": false
+      },
+      {
+        "step": 4,
+        "title": "Lanzamiento",
+        "summary": "Publicamos tu landing con medición activa y SEO básico.",
+        "content": "Ajustes finales, conexión de dominio, certificados de seguridad (SSL) activos y verificación de medición.",
+        "meta": "2-3 días hábiles",
+        "detailItems": [
+          "Landing publicada y revisada",
+          "Certificados de seguridad (SSL) activos y SEO básico",
+          "Medición de clics y contactos"
+        ],
+        "isActive": false
+      },
+      {
+        "step": 5,
+        "title": "Datos reales",
+        "summary": "Analizamos resultados y proponemos mejoras accionables.",
+        "content": "Monitoreamos clics y contactos. Compartimos reporte simple y sugerencias para mejorar.",
+        "meta": "Desde el lanzamiento",
+        "detailItems": [
+          "Métricas de clics y contactos",
+          "Reporte simple de resultados",
+          "Sugerencias iniciales de mejora",
+          "Opcional: preparación para análisis más avanzado"
+        ],
+        "isActive": false
+      },
+      {
+        "step": 6,
+        "title": "Mejora continua (opcional)",
+        "summary": "Probamos cambios y mejoramos con base en datos.",
+        "content": "Seguimos probando variantes y aplicando mejoras según resultados para captar más clientes.",
+        "meta": "Servicio opcional continuo",
+        "detailItems": [
+          "Pruebas y resultados documentados",
+          "Lista de mejoras sugeridas"
+        ],
+        "isActive": false
+      }
+    ],
+    "faqSection": {
+      "footerQuestion": "¿Tienes alguna otra pregunta?",
+      "footerButtonLabel": "Contacta con nosotros",
+      "placeholderQuestions": [
+        "¿Qué es una landing page y por qué la necesito?",
+        "¿Cuánto tiempo toma crear mi landing page?",
+        "¿Qué incluye el servicio completo?",
+        "¿Cuál es el rango de precios?"
+      ]
+    },
+    "faq": [
+      {
+        "id": "what-is-landing-page",
+        "title": "¿Qué es una Landing Page Optimizada?",
+        "content": "Es una página rápida, clara y enfocada en un solo objetivo: convertir visitas en clientes. Incluye medición para saber qué funciona y dónde mejorar."
+      },
+      {
+        "id": "how-long-takes",
+        "title": "¿En cuánto tiempo estará lista?",
+        "content": "En días, según contenidos y ajustes. Trabajamos con prototipos rápidos asistidos por IA y revisiones breves para salir a producción cuanto antes."
+      },
+      {
+        "id": "what-included",
+        "title": "¿Qué incluye la suscripción?",
+        "content": "Desde 900 MXN/mes: dominio, alojamiento, medición en la nube, soporte y mejoras. Opcionales: versión ES/EN, reportes simples y optimización continua."
+      },
+      {
+        "id": "price-range",
+        "title": "¿Puedo usar mi dominio?",
+        "content": "Sí. Conectamos tu dominio actual o te ayudamos a configurarlo desde cero. Incluimos certificado SSL."
+      },
+      {
+        "id": "support-after",
+        "title": "¿Cómo veré resultados?",
+        "content": "Como servicio adicional, puedes recibir reportes simples con métricas clave: visitas, clics en CTAs y contactos por WhatsApp."
+      },
+      {
+        "id": "can-change-language",
+        "title": "¿Puedo tener versión en español e inglés?",
+        "content": "Sí, es opcional. Mostramos el contenido en el idioma preferido del visitante y recordamos su elección."
+      },
+      {
+        "id": "how-measure",
+        "title": "¿Qué medimos exactamente?",
+        "content": "Clics en botones principales, contactos por WhatsApp, avance de lectura y secciones con mayor atención. Esto guía mejoras con evidencia."
+      },
+      {
+        "id": "requirements",
+        "title": "¿Qué necesito para empezar?",
+        "content": "Una breve descripción de tu negocio, beneficios a destacar, testimonios si tienes y medios de contacto vigentes. Si cuentas con colores de marca, también ayudarán."
+      }
+    ],
+    "conversionNote": {
+      "title": "¿Qué significa una mejora en conversión?",
+      "question": "¿Qué significa una mejora en conversión?",
+      "investmentLabel": "Visitas",
+      "investmentValue": "1,000",
+      "totalReturnLabel": "Acciones clave",
+      "totalReturnValue": "3.5x más",
+      "explanation": "Es una estimación basada en datos de la industria y casos comparables. Medimos desde el día 1 para validar con datos reales y priorizar mejoras.",
+      "conversionDescription": "Un aumento del <strong class=\"ank-color-secondaryAccentColor\">+350%</strong> en conversión indica un rendimiento significativamente mayor de tus visitas: más clics en llamadas a la acción y más contactos reales con el mismo presupuesto."
+    },
+    "statsStrip": {
+      "title": "Resultados reales, medidos",
+      "subtitle": "Métricas clave de tu embudo de ventas",
+      "description": "Seguimos visitas, clics en llamados a la acción y tiempo promedio de permanencia para priorizar mejoras con datos.",
+      "visitsLabel": "Visitas a la landing",
+      "ctaInteractionsLabel": "Interacciones con CTAs",
+      "averageTimeLabel": "Tiempo promedio en la landing"
+    },
+    "calculator": {
+      "title": "Calculadora de Conversión",
+      "subtitle": "Estima el impacto en conversiones y ventas con tu propia configuración",
+      "description": "Basada en promedios del sector y casos reales; ajusta tamaño, industria y visitas para simular.",
+      "businessSizeLabels": {
+        "nano": {
+          "title": "Nano Empresa",
+          "description": "1-2 empleados"
+        },
+        "micro": {
+          "title": "Micro Empresa",
+          "description": "3-10 empleados"
+        },
+        "small": {
+          "title": "Pequeña Empresa",
+          "description": "11-50 empleados"
+        },
+        "medium": {
+          "title": "Mediana Empresa",
+          "description": "51-250 empleados"
+        }
+      },
+      "industryLabels": {
+        "ecommerce": "E-commerce",
+        "services": "Servicios Profesionales",
+        "restaurant": "Restaurante",
+        "health": "Salud",
+        "education": "Educación",
+        "real-estate": "Bienes Raíces",
+        "consulting": "Consultoría"
+      },
+      "visitorsLabel": "Visitantes mensuales",
+      "resultsTitle": "Resultados Estimados",
+      "monthlyIncreaseLabel": "Ingresos adicionales mensuales",
+      "conversionImprovementLabel": "Mejora de conversión estimada"
+    },
+    "finalCtaSection": {
+      "title": "Publica una landing que vende y aprende con datos reales",
+      "subtitle": "Empieza hoy con una Landing Page Optimizada: rápida, clara y medible.\nSuscripción desde 900 MXN/mes.",
+      "primaryLabel": "Hablar por WhatsApp",
+      "secondaryLabel": "Empieza a vender con tu nueva Landing Page",
+      "trustSignals": {
+        "first": "⭐ Medición desde el día 1 • 🔒 SSL y hosting incluido • ⚡ Entrega rápida",
+        "second": [
+          "💬 Soporte continuo",
+          "📊 Reportes simples opcionales",
+          "🌐 Optimización para buscadores"
+        ]
+      }
+    },
+    "ui": {
+      "controls": {
+        "languageToggle": "Cambiar idioma"
+      },
+      "accessibility": {
+        "skipToContent": "Saltar al contenido principal",
+        "primaryNavigation": "Navegación principal",
+      "mobileMenuAriaLabel": "menu Menú de navegación",
+        "openMenu": "Abrir menú",
+        "analyticsConsentDialog": "Diálogo de consentimiento de analítica",
+        "dialog": "Diálogo",
+        "dialogOpened": "Diálogo abierto",
+        "dialogClosed": "Diálogo cerrado"
+      },
+      "debugPanel": {
+        "downloadDraftPayloads": "Descargar payloads del draft",
+        "writeDraftsToDisk": "Escribir drafts en disco",
+        "configIssues": "Problemas de configuración",
+        "analyticsLatest": "Eventos analíticos recientes",
+        "unknownComponentPrefix": "Componente desconocido"
+      },
+      "sections": {
+        "services": {
+          "title": "Servicios para vender más",
+          "subtitle": "De la publicación rápida a la mejora continua basada en datos",
+          "cta": "Pedir información"
+        },
+        "testimonials": {
+          "title": "Resultados que generan confianza (Sección de demostración)",
+          "subtitle": "Historias breves de clientes que ya están captando clientes de una mejor manera y gastan mejor su presupuesto"
+        },
+        "faq": {
+          "title": "Preguntas Frecuentes",
+          "subtitle": "Resolvemos las dudas más comunes sobre nuestro servicio de landing pages"
+        },
+        "finalCta": {
+          "title": "Publica una landing que vende y aprende con datos reales",
+          "subtitle": "Empieza hoy con una Landing Page Optimizada: rápida, clara y medible.\nSuscripción desde 900 MXN/mes.",
+          "primaryLabel": "Hablar por WhatsApp",
+          "secondaryLabel": "Empieza a vender con tu nueva Landing Page"
+        }
+      },
+      "loading": {
+        "calculator": "Calculando Conversión…",
+        "testimonials": "Cargando testimonios…",
+        "faq": "Cargando preguntas frecuentes…"
+      },
+      "contact": {
+        "label": "CONTACTO",
+        "whatsappMessage": "¡Hola! Me interesa conocer más sobre sus servicios de consultoría tecnológica para landing pages. ¿Podrían ayudarme?"
+      }
+    },
+    "demo": {
+      "title": "Demostración de componentes",
+      "modal": {
+        "title": "Ejemplo de Diálogo",
+        "header": "Ejemplo de Diálogo",
+        "desc": "Este es un diálogo de ejemplo. Puedes usar esta área para mostrar cualquier contenido, acción o información personalizada para tus usuarios.",
+        "features": [
+          "Contenido totalmente personalizable",
+          "Soporta acciones y UI avanzada",
+          "Cerrar con el botón de abajo"
+        ],
+        "close": "Cerrar",
+        "button": {
+          "open": "Abrir diálogo de ejemplo"
+        },
+        "action": {
+          "confirm": "Confirmar",
+          "cancel": "Cancelar"
+        },
+        "actions": {
+          "primary": "Acción principal",
+          "secondary": "Acción secundaria"
+        },
+        "info": "Este es un diálogo de ejemplo para mostrar acciones y contenido personalizado.",
+        "closeLabel": "Cerrar diálogo"
+      },
+      "toast": {
+        "success": "¡Pedido procesado exitosamente!",
+        "error": "Conexión de red fallida",
+        "warning": "Tu sesión expirará en 5 minutos",
+        "info": "Nuevas funciones disponibles en ajustes",
+        "fileUploadTitle": "Carga de archivo completa",
+        "fileUploadText": "Tu documento ha sido subido y procesado exitosamente.",
+        "unsavedTitle": "Cambios no guardados",
+        "unsavedText": "Tienes cambios sin guardar. ¿Deseas guardar antes de salir?",
+        "unsavedSave": "Guardar",
+        "criticalTitle": "Error crítico",
+        "criticalText": "La operación no pudo completarse. Por favor contacta soporte si el problema persiste.",
+        "contactSupport": "Contactar soporte",
+        "tryAgain": "Intentar de nuevo",
+        "updateTitle": "Actualización disponible",
+        "updateText": "La versión 2.1.0 está lista para instalarse con nuevas funciones y correcciones.",
+        "updateNow": "Actualizar ahora",
+        "viewChanges": "Ver cambios",
+        "later": "Más tarde",
+        "updateStarted": "¡Actualización iniciada! La aplicación se reiniciará automáticamente.",
+        "openingChangelog": "Abriendo registro de cambios...",
+        "updatePostponed": "Actualización pospuesta. Se te recordará en 24 horas.",
+        "positionChanged": "Posición cambiada a: {{position}}",
+        "allCleared": "Todas las notificaciones han sido borradas",
+        "changesSaved": "¡Cambios guardados exitosamente!",
+        "discard": "Descartar",
+        "openingSupport": "Abriendo chat de soporte...",
+        "button": {
+          "success": "Mostrar notificación de éxito",
+          "error": "Mostrar notificación de error",
+          "warning": "Mostrar notificación de advertencia",
+          "info": "Mostrar notificación de información",
+          "fileUpload": "Mostrar notificación de carga de archivo",
+          "unsaved": "Mostrar notificación de cambios no guardados",
+          "critical": "Mostrar notificación de error crítico",
+          "action": "Mostrar notificación de acción",
+          "position": "Mostrar notificación de posición",
+          "clear": "Limpiar todas las notificaciones"
+        }
+      }
+    },
+    "consent": {
+      "title": "Analítica y Cookies",
+      "intro": "La analítica anónima está activada por defecto para mejorar la experiencia. Puedes retirar el consentimiento en cualquier momento desde ajustes.",
+      "bullets": [
+        "No se recopilan datos personales.",
+        "Ayuda a corregir problemas y priorizar funciones.",
+        "Puedes desactivarlo en cualquier momento."
+      ],
+      "actions": {
+        "allow": "Permitir",
+        "decline": "Rechazar",
+        "remove": "Retirar consentimiento",
+        "later": "Más tarde",
+        "confirm": "Sí, retirar",
+        "cancel": "No, mantener activado"
+      },
+      "feedback": {
+        "snoozed": "Te preguntaremos de nuevo más tarde.",
+        "removed": "Consentimiento retirado. Solo se envían eventos esenciales y datos de sesión anónimos.",
+        "confirmRemove": "¿Estás seguro de que deseas retirar el consentimiento? La analítica se desactivará excepto para eventos esenciales."
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Zoo Landing Page. Todos los derechos reservados.",
+      "actions": {
+        "close": "Cerrar"
+      },
+      "social": {
+        "facebook": {
+          "label": "Facebook",
+          "ariaLabel": "Visita nuestra página de Facebook"
+        },
+        "twitter": {
+          "label": "Twitter",
+          "ariaLabel": "Sigue nuestra cuenta de Twitter"
+        },
+        "instagram": {
+          "label": "Instagram",
+          "ariaLabel": "Sigue nuestra cuenta de Instagram"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "terms": {
+          "icon": "§",
+          "link": "Términos de servicio",
+          "title": "Términos de servicio",
+          "intro": "Estos Términos de servicio regulan el uso de esta página. Al continuar navegando o interactuar con este sitio, aceptas estos términos.",
+          "sections": [
+            "Propósito y contenido: Esta landing muestra nuestros servicios y ofrece contenido educativo. La información se proporciona tal cual y puede cambiar sin previo aviso.",
+            "Uso aceptable: Aceptas no hacer un uso indebido del sitio, intentar accesos no autorizados ni interferir con su operación. Cualquier abuso puede resultar en restricción de acceso.",
+            "Propiedad intelectual: Las marcas, logotipos y contenidos mostrados son propiedad de sus respectivos dueños y no pueden reutilizarse sin permiso.",
+            "Privacidad y analítica: Usamos analítica anónima, sujeta a tu consentimiento, para mejorar el rendimiento y la experiencia. Revisa 'Uso de datos' para más detalles."
+          ]
+        },
+        "data": {
+          "icon": "◌",
+          "link": "Privacidad de datos",
+          "title": "Privacidad de datos",
+          "intro": "La analítica está activada por defecto. Recopilamos información mínima y respetuosa de la privacidad para mejorar este sitio. Puedes retirar el consentimiento en cualquier momento.",
+          "points": [
+            "La analítica anónima está activada por defecto. No se requieren datos personales para el uso básico.",
+            "Métricas técnicas (p. ej., dispositivo, idioma, ventana, rendimiento) nos ayudan a corregir problemas y priorizar mejoras.",
+            "Si retiras el consentimiento, solo se envían eventos esenciales, el ID de sesión y el ID local.",
+            "Puedes retirar el consentimiento en cualquier momento actualizando las preferencias."
+          ],
+          "consentNote": "La analítica está activada por defecto. Al retirar el consentimiento, solo se envían eventos esenciales y datos de sesión anónimos."
+        }
+      }
+    },
+    "app": {
+      "name": "Zoo Landing Page"
+    }
+  }
+}

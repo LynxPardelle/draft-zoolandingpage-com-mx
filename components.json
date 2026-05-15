@@ -1,0 +1,903 @@
+{
+  "version": 1,
+  "domain": "zoolandingpage.com.mx",
+  "pageId": "allPages",
+  "components": [
+    {
+      "id": "toggleThemeDesktop",
+      "type": "button",
+      "eventInstructions": "toggleTheme",
+      "meta_title": "theme_toggle",
+      "valueInstructions": "set:config.label,themePick,☀️,🌙",
+      "config": {
+        "label": "",
+        "classes": "ank-alignItems-center ank-and-7s ank-anic-infinite ank-antf-ease ank-bgcl-borderMINbox ank-bgi-linearMINgradientSD90degCOMaltBgColorCOMaltAccentColorCOMaltSecondaryBgColorED ank-bgs-150per ank-border-none ank-borderRadius-1rem ank-display-flex ank-p-0_5rem__1_5rem gradientShiftAnimation"
+      }
+    },
+    {
+      "id": "toggleLanguageDesktop",
+      "type": "button",
+      "eventInstructions": "toggleLanguage",
+      "meta_title": "language_toggle",
+      "valueInstructions": "set:config.label,languageLabel",
+      "config": {
+        "id": "toggleLanguage",
+        "classes": "ank-px-1_5rem ank-py-0_5rem ank-borderRadius-1rem ank-fontWeight-550 ank-transformHover-translateYSDMIN1pxED ank-gap-0_5rem ank-justifyContent-center ank-outlineColor-transparent ank-fs-1rem ank-d-flex ank-alignItems-center ank-textDecoration-none ank-transition-all__200ms ank-position-relative ank-bg-accentColor ank-color-secondaryTextColor ank-bgHover-secondaryAccentColor ank-colorHover-secondaryTextColor ank-border-none"
+      }
+    },
+    {
+      "id": "toggleThemeMobile",
+      "type": "button",
+      "eventInstructions": "toggleTheme",
+      "meta_title": "theme_toggle",
+      "valueInstructions": "set:config.label,themePick,Light,Dark",
+      "config": {
+        "label": "",
+        "classes": "ank-width-36px ank-height-36px ank-display-flex ank-alignItems-center ank-justifyContent-center ank-and-7s ank-anic-infinite ank-antf-ease ank-bgcl-borderMINbox ank-bgi-linearMINgradientSD90degCOMaltBgColorCOMaltAccentColorCOMaltSecondaryBgColorED ank-bgs-150per ank-border-none ank-borderRadius-1rem ank-p-0 gradientShiftAnimation"
+      }
+    },
+    {
+      "id": "toggleLanguageMobile",
+      "type": "button",
+      "eventInstructions": "toggleLanguage",
+      "meta_title": "language_toggle",
+      "valueInstructions": "set:config.label,languageLabel",
+      "config": {
+        "id": "toggleLanguageMobile",
+        "label": "",
+        "classes": "ank-px-8px ank-py-8px ank-borderRadius-0_75rem ank-fontWeight-550 ank-transformHover-translateYSDMIN1pxED ank-gap-0_5rem ank-justifyContent-center ank-outlineColor-transparent ank-fs-1rem ank-d-flex ank-alignItems-center ank-textDecoration-none ank-transition-all__200ms ank-position-relative ank-bg-accentColor ank-color-secondaryTextColor ank-bgHover-secondaryAccentColor ank-colorHover-secondaryTextColor ank-width-36px ank-height-36px ank-border-none"
+      }
+    },
+    {
+      "id": "footerTermsButton",
+      "type": "button",
+      "eventInstructions": "openModal:terms-of-service,footer:terms,open_terms_modal,footer",
+      "valueInstructions": "set:config.label,i18n,footer.legal.terms.link; set:config.ariaLabel,i18n,footer.legal.terms.link",
+      "config": {
+        "label": "",
+        "ariaLabel": "",
+        "classes": "ank-bg-transparent ank-border-0 ank-color-secondaryTextColor ank-fontSize-sm ank-textDecoration-underline ank-cursor-pointer"
+      }
+    },
+    {
+      "id": "footerDataButton",
+      "type": "button",
+      "eventInstructions": "openModal:data-use,footer:data,open_data_privacy_modal,footer",
+      "valueInstructions": "set:config.label,i18n,footer.legal.data.link; set:config.ariaLabel,i18n,footer.legal.data.link",
+      "config": {
+        "label": "",
+        "ariaLabel": "",
+        "classes": "ank-bg-transparent ank-border-0 ank-color-secondaryTextColor ank-fontSize-sm ank-textDecoration-underline ank-cursor-pointer"
+      }
+    },
+    {
+      "id": "skipToMainLink",
+      "type": "link",
+      "eventInstructions": "skipToMain:main-content",
+      "valueInstructions": "set:config.text,i18n,ui.accessibility.skipToContent",
+      "config": {
+        "id": "skipToMainLink",
+        "href": "#main-content",
+        "text": "",
+        "classes": "ank-position-absolute ank-s-0 ank-t-0 ank-w-1px ank-h-1px ank-overflow-hidden ank-positionFocus-static ank-wFocus-auto ank-hFocus-auto ank-pFocus-0_5rem__1rem ank-bgFocus-secondaryAccentColor ank-colorFocus-secondaryTextColor ank-zIndexFocus-1000"
+      }
+    },
+    {
+      "id": "headerLogoImage",
+      "type": "link",
+      "valueInstructions": "set:config.text,varOr,brand.displayName,Zoo Landing; set:config.ariaLabel,varOr,brand.displayName,Zoo Landing",
+      "config": {
+        "id": "headerLogoImage",
+        "href": "#home",
+        "ariaLabel": "",
+        "text": "",
+        "classes": "ank-fs-1_5rem ank-fs-md-2rem ank-fontWeight-bold ank-color-titleColor ank-ms-1rem ank-tde-none"
+      }
+    },
+    {
+      "id": "headerNavLinkTemplate",
+      "type": "link",
+      "eventInstructions": "trackEvent:nav_click,navigation,event.eventData,href,event.eventData;navigationToSection:event.eventData",
+      "config": {
+        "id": "headerNavLinkTemplate",
+        "href": "",
+        "text": "",
+        "classes": "ank-textDecoration-none ank-fontWeight-500 ank-letterSpacing-05px ank-position-relative ank-paddingInline-4px ank-paddingBlock-4px ank-transition-color ank-duration-200 ank-color-textColor ank-opacity-80"
+      }
+    },
+    {
+      "id": "footerSocialLinkTemplate",
+      "type": "link",
+      "config": {
+        "id": "footerSocialLinkTemplate",
+        "href": "#",
+        "text": "",
+        "classes": "ank-color-secondaryTextColor ank-textDecoration-none ank-fontSize-lg ank-padding-8px ank-borderRadius-md ank-transition-colors",
+        "target": "_blank",
+        "rel": "noopener noreferrer",
+        "ariaLabel": ""
+      }
+    },
+    {
+      "id": "siteHeader",
+      "type": "container",
+      "config": {
+        "tag": "header",
+        "role": "banner",
+        "classes": "ank-and-15s ank-anic-infinite ank-antf-ease ank-bg-bgColor ank-bg-transparent ank-bgcl-borderMINbox ank-bgi-linearMINgradientSD90degCOMbgColorCOMsecondaryBgColorED ank-bgs-200per ank-borderBottom-1px ank-borderColor-secondaryBgColor ank-color-textColor ank-position-sticky ank-top-0 ank-width-100per ank-zIndex-50 gradientShiftAnimation",
+        "components": [
+          "headerDesktop",
+          "headerMobile"
+        ]
+      }
+    },
+    {
+      "id": "headerDesktop",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-none ank-display-xl-flex ank-alignItems-center ank-container ank-gap-24px ank-justifyContent-xl-start ank-justifyContent-spaceMINbetween ank-marginInline-auto ank-maxWidth-7xl ank-paddingBottom-16px ank-paddingTop-16px ng-star-inserted",
+        "components": [
+          "headerLogo",
+          "headerDesktopNav"
+        ]
+      }
+    },
+    {
+      "id": "headerLogo",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-alignItems-center",
+        "components": [
+          "headerLogoImage"
+        ]
+      }
+    },
+    {
+      "id": "headerDesktopNav",
+      "type": "container",
+      "valueInstructions": "set:config.ariaLabel,i18n,ui.accessibility.primaryNavigation",
+      "config": {
+        "tag": "nav",
+        "ariaLabel": "",
+        "classes": "ank-display-none ank-display-xl-flex ank-alignItems-center ank-jc-spaceMINbetween ank-gap-32px ank-w-calcSD100per__MIN__17remED ank-mx-1rem",
+        "components": [
+          "headerDesktopNavLinks",
+          "headerDesktopNavActions"
+        ]
+      }
+    },
+    {
+      "id": "headerDesktopNavLinks",
+      "type": "container",
+      "condition": "all:navigation,exists",
+      "loopConfig": {
+        "source": "var",
+        "path": "navigation",
+        "templateId": "headerNavLinkTemplate",
+        "idPrefix": "headerNavLink",
+        "bindings": [
+          {
+            "to": "config.href",
+            "sources": [
+              "href",
+              "url",
+              {
+                "from": "value",
+                "transform": "navigationHref"
+              }
+            ]
+          },
+          {
+            "to": "config.text",
+            "sources": [
+              {
+                "from": "labelKey",
+                "transform": "i18nKey"
+              },
+              {
+                "from": "label",
+                "transform": "locale"
+              }
+            ]
+          },
+          {
+            "to": "config.ariaLabel",
+            "sources": [
+              {
+                "from": "ariaLabelKey",
+                "transform": "i18nKey"
+              },
+              {
+                "from": "ariaLabel",
+                "transform": "locale"
+              },
+              {
+                "from": "labelKey",
+                "transform": "i18nKey"
+              },
+              {
+                "from": "label",
+                "transform": "locale"
+              }
+            ]
+          }
+        ]
+      },
+      "config": {
+        "tag": "ul",
+        "classes": "ank-display-flex ank-gap-28px ank-listStyle-none ank-margin-0 ank-padding-0 ank-flexWrap-nowrap ank-whiteSpace-nowrap ank-justifyContent-spaceMINevenly ank-alignItems-center",
+        "components": []
+      }
+    },
+    {
+      "id": "headerDesktopNavActions",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-none ank-display-xl-flex ank-gap-12px",
+        "components": [
+          "toggleThemeDesktop",
+          "toggleLanguageDesktop"
+        ]
+      }
+    },
+    {
+      "id": "headerMobile",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-display-xl-none ank-alignItems-center ank-container ank-gap-24px ank-justifyContent-spaceMINbetween ank-marginInline-auto ank-maxWidth-7xl ank-paddingBottom-16px ank-paddingTop-16px",
+        "components": [
+          "headerLogo",
+          "headerMobileActions"
+        ]
+      }
+    },
+    {
+      "id": "headerMobileActions",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-alignItems-center ank-gap-12px",
+        "components": [
+          "toggleThemeMobile",
+          "toggleLanguageMobile",
+          "headerMobileNav"
+        ]
+      }
+    },
+    {
+      "id": "siteFooter",
+      "type": "container",
+      "config": {
+        "id": "contact-section",
+        "tag": "footer",
+        "classes": "ank-width-100per ank-bg-secondaryBgColor ank-borderTop-1px ank-borderColor-secondaryBgColor ank-marginTop-auto ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-24px",
+        "components": [
+          "siteFooterContent"
+        ]
+      }
+    },
+    {
+      "id": "siteFooterContent",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-alignItems-center ank-justifyContent-center ank-gap-16px ank-width-100per ank-maxWidth-1200px ank-flexDirection-md-column ank-justifyContent-md-spaceBetween ank-alignItems-md-center",
+        "components": [
+          "footerLegalSection",
+          "footerCopyrightSection"
+        ]
+      }
+    },
+    {
+      "id": "footerLegalSection",
+      "condition": "all:i18n,footer.legal.title; all:i18n,footer.legal.terms.link; all:i18n,footer.legal.data.link; all:i18n,footer.legal.terms.sections; all:i18n,footer.legal.data.points",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-alignItems-center ank-gap-8px ank-textAlign-center",
+        "components": [
+          "footerLegalTitle",
+          "footerLegalLinks"
+        ]
+      }
+    },
+    {
+      "id": "footerLegalLinks",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-gap-12px ank-flexWrap-wrap ank-justifyContent-center",
+        "components": [
+          "footerTermsButton",
+          "footerDataButton"
+        ]
+      }
+    },
+    {
+      "id": "footerSocialSection",
+      "condition": "all:varLenGt,socialLinks,0",
+      "type": "container",
+      "loopConfig": {
+        "source": "var",
+        "path": "socialLinks",
+        "templateId": "footerSocialLinkTemplate",
+        "idPrefix": "footerSocialLink",
+        "bindings": [
+          {
+            "to": "config.href",
+            "sources": [
+              "href",
+              "url",
+              {
+                "from": "value",
+                "transform": "navigationHref"
+              }
+            ]
+          },
+          {
+            "to": "config.text",
+            "sources": [
+              "icon",
+              {
+                "from": "labelKey",
+                "transform": "i18nKey"
+              },
+              {
+                "from": "label",
+                "transform": "locale"
+              }
+            ]
+          },
+          {
+            "to": "config.ariaLabel",
+            "sources": [
+              {
+                "from": "ariaLabelKey",
+                "transform": "i18nKey"
+              },
+              {
+                "from": "ariaLabel",
+                "transform": "locale"
+              },
+              {
+                "from": "labelKey",
+                "transform": "i18nKey"
+              },
+              {
+                "from": "label",
+                "transform": "locale"
+              }
+            ]
+          },
+          {
+            "to": "config.target",
+            "sources": [
+              "target"
+            ]
+          },
+          {
+            "to": "config.rel",
+            "sources": [
+              "rel"
+            ]
+          }
+        ]
+      },
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-gap-16px ank-alignItems-center",
+        "components": []
+      }
+    },
+    {
+      "id": "footerCopyrightSection",
+      "condition": "all:i18n,footer.copyright",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-textAlign-center",
+        "components": [
+          "footerCopyrightText"
+        ]
+      }
+    },
+    {
+      "id": "headerMobileNav",
+      "type": "dropdown",
+      "condition": "all:navigation,exists",
+      "eventInstructions": "trackEvent:nav_click,navigation,event.eventData.label,href,event.eventData.value;navigationToSection:event.eventData.value",
+      "valueInstructions": "set:config.items,var,navigation; set:config.dropdownConfig.ariaLabel,i18n,ui.accessibility.mobileMenuAriaLabel",
+      "config": {
+        "items": [],
+        "dropdownConfig": {
+          "ariaLabel": "",
+          "classes": "",
+          "buttonClasses": "ank-bg-transparent ank-border-0 ank-p-0 ank-cursor-pointer",
+          "itemLinkClasses": "ank-display-block ank-padding-8px ank-borderRadius-0_75rem ank-textDecoration-none ank-transition-bgColor ank-duration-50 ank-bg-secondaryBgColor ank-color-accentColor",
+        "menuContainerClasses": "ank-display-xl-none ank-bg-bgColor ank-borderTop-1px ank-borderColor-secondaryBgColor ank-padding-20px ank-space-y-20px ank-animation-fadeInDown ng-star-inserted",
+          "menuNavClasses": "ng-star-inserted",
+          "menuListClasses": "ank-listStyle-none ank-padding-0 ank-margin-0 ank-display-flex ank-flexDirection-column ank-gap-8px",
+          "renderMode": "inline",
+          "menuContainerId": "mobile-primary-navigation",
+          "inlinePortalTargetSelector": "header",
+          "closeOnSelect": true
+        },
+        "components": [
+          "menu"
+        ]
+      }
+    },
+    {
+      "id": "menu",
+      "type": "icon",
+      "valueInstructions": "set:config.ariaLabel,i18n,ui.accessibility.openMenu",
+      "config": {
+        "iconName": "menu",
+        "ariaLabel": "",
+        "ariaHidden": true,
+        "classes": "ank-color-textColor ank-fs-1_5rem"
+      }
+    },
+    {
+      "id": "modalAnalyticsConsentRoot",
+      "type": "container",
+      "condition": "all:modalRefId,analytics-consent",
+      "config": {
+        "tag": "section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-0_75rem ank-w-100per",
+        "components": [
+          "modalConsentHeader",
+          "modalConsentIntro",
+          "modalConsentBullets",
+          "modalConsentActions"
+        ]
+      }
+    },
+    {
+      "id": "modalConsentHeader",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-alignItems-center ank-gap-0_5rem ank-bg-secondaryBgColor ank-border-1px ank-borderColor-border ank-p-0_5rem ank-borderRadius-0_5rem",
+        "components": [
+          "modalConsentHeaderIcon",
+          "modalConsentHeaderTitle"
+        ]
+      }
+    },
+    {
+      "id": "modalConsentHeaderIcon",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-2rem ank-height-2rem ank-borderRadius-50per ank-bg-accentColor ank-display-flex ank-alignItems-center ank-justifyContent-center ank-color-bgColor ank-fontWeight-700",
+        "components": [
+          "modalConsentHeaderIconGlyph"
+        ]
+      }
+    },
+    {
+      "id": "modalConsentHeaderIconGlyph",
+      "type": "text",
+      "config": {
+        "tag": "span",
+        "text": "i"
+      }
+    },
+    {
+      "id": "modalConsentHeaderTitle",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,consent.title",
+      "config": {
+        "tag": "h2",
+        "text": "",
+        "classes": "ank-m-0 ank-fontSize-1_125rem ank-fontWeight-700 ank-color-textColor"
+      }
+    },
+    {
+      "id": "modalConsentIntro",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,consent.intro",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "ank-m-0 ank-color-secondaryTextColor"
+      }
+    },
+    {
+      "id": "modalConsentBullets",
+      "type": "container",
+      "config": {
+        "tag": "ul",
+        "classes": "ank-m-0 ank-pt-0_25rem ank-pl-1rem ank-color-secondaryTextColor",
+        "components": [
+          "modalConsentBullet0",
+          "modalConsentBullet1",
+          "modalConsentBullet2"
+        ]
+      }
+    },
+    {
+      "id": "modalConsentBullet0",
+      "type": "container",
+      "config": {
+        "tag": "li",
+        "components": [
+          "modalConsentBullet0Text"
+        ]
+      }
+    },
+    {
+      "id": "modalConsentBullet0Text",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,consent.bullets.0",
+      "config": {
+        "text": ""
+      }
+    },
+    {
+      "id": "modalConsentBullet1",
+      "type": "container",
+      "config": {
+        "tag": "li",
+        "components": [
+          "modalConsentBullet1Text"
+        ]
+      }
+    },
+    {
+      "id": "modalConsentBullet1Text",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,consent.bullets.1",
+      "config": {
+        "text": ""
+      }
+    },
+    {
+      "id": "modalConsentBullet2",
+      "type": "container",
+      "config": {
+        "tag": "li",
+        "components": [
+          "modalConsentBullet2Text"
+        ]
+      }
+    },
+    {
+      "id": "modalConsentBullet2Text",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,consent.bullets.2",
+      "config": {
+        "text": ""
+      }
+    },
+    {
+      "id": "modalConsentActions",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-gap-0_5rem ank-justifyContent-end ank-alignItems-stretch ank-mt-0_75rem ank-flexWrap-wrap",
+        "components": [
+          "modalConsentDeclineBtn",
+          "modalConsentLaterBtn",
+          "modalConsentAllowBtn"
+        ]
+      }
+    },
+    {
+      "id": "modalConsentDeclineBtn",
+      "type": "button",
+      "eventInstructions": "declineConsent",
+      "valueInstructions": "set:config.label,i18n,consent.actions.decline",
+      "config": {
+        "label": "",
+        "classes": "btnBaseVALSVL1_25remVL0_75remVL btnTypePrimaryVALSVLsecondaryAccentColorVLtextColorVL"
+      }
+    },
+    {
+      "id": "modalConsentLaterBtn",
+      "type": "button",
+      "eventInstructions": "remindLater:24",
+      "valueInstructions": "set:config.label,i18n,consent.actions.later",
+      "config": {
+        "label": "",
+        "classes": "btnBaseVALSVL1_25remVL0_75remVL btnTypePrimaryVALSVLwarningVLtextColorVL"
+      }
+    },
+    {
+      "id": "modalConsentAllowBtn",
+      "type": "button",
+      "eventInstructions": "acceptConsent",
+      "valueInstructions": "set:config.label,i18n,consent.actions.allow",
+      "config": {
+        "label": "",
+        "classes": "btnBaseVALSVL1_25remVL0_75remVL btnTypePrimaryVALSVLprimaryVLtextColorVL"
+      }
+    },
+    {
+      "id": "modalTermsRoot",
+      "type": "container",
+      "condition": "all:modalRefId,terms-of-service",
+      "config": {
+        "tag": "section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-0_75rem ank-w-100per",
+        "components": [
+          "modalTermsHeader",
+          "modalTermsIntro",
+          "modalTermsSections",
+          "modalTermsActions"
+        ]
+      }
+    },
+    {
+      "id": "modalTermsHeader",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-alignItems-center ank-gap-0_5rem ank-bg-secondaryBgColor ank-border-1px ank-borderColor-border ank-p-0_5rem ank-borderRadius-0_5rem",
+        "components": [
+          "modalTermsHeaderIcon",
+          "modalTermsHeaderTitle"
+        ]
+      }
+    },
+    {
+      "id": "modalTermsHeaderIcon",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-2rem ank-height-2rem ank-borderRadius-50per ank-bg-secondaryAccentColor ank-display-flex ank-alignItems-center ank-justifyContent-center ank-color-bgColor ank-fontWeight-700",
+        "components": [
+          "modalTermsHeaderIconGlyph"
+        ]
+      }
+    },
+    {
+      "id": "modalTermsHeaderIconGlyph",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,footer.legal.terms.icon",
+      "config": {
+        "tag": "span",
+        "text": ""
+      }
+    },
+    {
+      "id": "modalTermsHeaderTitle",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,footer.legal.terms.title",
+      "config": {
+        "tag": "h2",
+        "text": "",
+        "classes": "ank-m-0 ank-fontSize-1_125rem ank-fontWeight-700 ank-color-textColor"
+      }
+    },
+    {
+      "id": "modalTermsIntro",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,footer.legal.terms.intro",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "ank-m-0 ank-color-secondaryTextColor"
+      }
+    },
+    {
+      "id": "modalTermsSections",
+      "type": "container",
+      "loopConfig": {
+        "source": "i18n",
+        "path": "footer.legal.terms.sections",
+        "templateId": "modalTermsSectionTemplate",
+        "idPrefix": "modalTermsSection",
+        "bindings": [
+          {
+            "to": "config.text",
+            "sources": [
+              "$item"
+            ]
+          }
+        ]
+      },
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-1rem",
+        "components": []
+      }
+    },
+    {
+      "id": "modalTermsSectionTemplate",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "ank-m-0 ank-color-secondaryTextColor"
+      }
+    },
+    {
+      "id": "modalTermsActions",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-justifyContent-end ank-gap-0_5rem ank-mt-0_75rem",
+        "components": [
+          "modalTermsCloseBtn"
+        ]
+      }
+    },
+    {
+      "id": "modalTermsCloseBtn",
+      "type": "button",
+      "eventInstructions": "closeModal",
+      "valueInstructions": "set:config.label,i18n,footer.actions.close",
+      "config": {
+        "label": "",
+        "classes": "btnBaseVALSVL1_25remVL0_75remVL btnTypePrimaryVALSVLsecondaryAccentColorVLtextColorVL"
+      }
+    },
+    {
+      "id": "modalDataUseRoot",
+      "type": "container",
+      "condition": "all:modalRefId,data-use",
+      "config": {
+        "tag": "section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-0_75rem ank-w-100per",
+        "components": [
+          "modalDataHeader",
+          "modalDataIntro",
+          "modalDataPoints",
+          "modalDataConsentNote",
+          "modalDataActions"
+        ]
+      }
+    },
+    {
+      "id": "modalDataHeader",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-alignItems-center ank-gap-0_5rem ank-bg-secondaryBgColor ank-border-1px ank-borderColor-border ank-p-0_5rem ank-borderRadius-0_5rem",
+        "components": [
+          "modalDataHeaderIcon",
+          "modalDataHeaderTitle"
+        ]
+      }
+    },
+    {
+      "id": "modalDataHeaderIcon",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-2rem ank-height-2rem ank-borderRadius-50per ank-bg-secondaryAccentColor ank-display-flex ank-alignItems-center ank-justifyContent-center ank-color-bgColor ank-fontWeight-700",
+        "components": [
+          "modalDataHeaderIconGlyph"
+        ]
+      }
+    },
+    {
+      "id": "modalDataHeaderIconGlyph",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,footer.legal.data.icon",
+      "config": {
+        "tag": "span",
+        "text": ""
+      }
+    },
+    {
+      "id": "modalDataHeaderTitle",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,footer.legal.data.title",
+      "config": {
+        "tag": "h2",
+        "text": "",
+        "classes": "ank-m-0 ank-fontSize-1_125rem ank-fontWeight-700 ank-color-textColor"
+      }
+    },
+    {
+      "id": "modalDataIntro",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,footer.legal.data.intro",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "ank-m-0 ank-color-secondaryTextColor"
+      }
+    },
+    {
+      "id": "modalDataPoints",
+      "type": "container",
+      "loopConfig": {
+        "source": "i18n",
+        "path": "footer.legal.data.points",
+        "templateId": "modalDataPointTemplate",
+        "idPrefix": "modalDataPoint",
+        "bindings": [
+          {
+            "to": "config.text",
+            "sources": [
+              "$item"
+            ]
+          }
+        ]
+      },
+      "config": {
+        "tag": "div",
+        "classes": "ank-m-0 ank-pl-1rem ank-color-secondaryTextColor ank-display-flex ank-flexDirection-column ank-gap-0_5rem",
+        "components": []
+      }
+    },
+    {
+      "id": "modalDataPointTemplate",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": ""
+      }
+    },
+    {
+      "id": "modalDataConsentNote",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,footer.legal.data.consentNote",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "ank-m-0 ank-color-secondaryTextColor"
+      }
+    },
+    {
+      "id": "modalDataActions",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-justifyContent-end ank-gap-0_5rem ank-mt-0_75rem",
+        "components": [
+          "modalDataRemoveConsentBtn",
+          "modalDataCloseBtn"
+        ]
+      }
+    },
+    {
+      "id": "modalDataRemoveConsentBtn",
+      "type": "button",
+      "eventInstructions": "removeConsentRequest;closeModal",
+      "valueInstructions": "set:config.label,i18n,consent.actions.remove",
+      "config": {
+        "label": "",
+        "classes": "btnBaseVALSVL1_25remVL0_75remVL ank-bg-transparent ank-border-2px__solid__danger ank-color-danger ank-ts-200 ank-bgHover-danger ank-colorHover-textColor"
+      }
+    },
+    {
+      "id": "modalDataCloseBtn",
+      "type": "button",
+      "eventInstructions": "closeModal",
+      "valueInstructions": "set:config.label,i18n,footer.actions.close",
+      "config": {
+        "label": "",
+        "classes": "btnBaseVALSVL1_25remVL0_75remVL btnTypePrimaryVALSVLsecondaryAccentColorVLtextColorVL"
+      }
+    },
+    {
+      "id": "footerLegalTitle",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,footer.legal.title",
+      "config": {
+        "tag": "h3",
+        "text": "",
+        "classes": "ank-fontSize-lg ank-fontWeight-semibold ank-color-titleColor ank-margin-0"
+      }
+    },
+    {
+      "id": "footerCopyrightText",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,footer.copyright",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "ank-color-secondaryTextColor ank-fontSize-sm ank-margin-0"
+      }
+    }
+  ]
+}

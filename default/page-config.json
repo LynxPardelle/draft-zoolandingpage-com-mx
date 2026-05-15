@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "pageId": "default",
+  "domain": "zoolandingpage.com.mx",
+  "rootIds": ["skipToMainLink", "siteHeader", "landingPage", "siteFooter"],
+  "modalRootIds": ["modalAnalyticsConsentRoot", "modalTermsRoot", "modalDataUseRoot"],
+  "metadata": {},
+  "seo": {
+    "title": {
+      "es": "Landing Page Optimizada: Convierte visitas en clientes | ZoolandingPage",
+      "en": "Optimized Landing Page: Turn visits into customers | ZoolandingPage"
+    },
+    "description": {
+      "es": "Publica una landing rápida, clara y medible. Más cierres de venta, mejores decisiones con datos. Suscripción desde 900 MXN/mes (incluye dominio, alojamiento y medición).",
+      "en": "Launch a fast, clear, and measurable landing page. More closed deals and better decisions with real data. Plans from 900 MXN/month, including domain, hosting, and analytics."
+    },
+    "openGraph": {
+      "title": {
+        "es": "Landing Page Optimizada: Convierte visitas en clientes | ZoolandingPage",
+        "en": "Optimized Landing Page: Turn visits into customers | ZoolandingPage"
+      },
+      "description": {
+        "es": "Publica una landing rápida, clara y medible. Más cierres de venta, mejores decisiones con datos. Suscripción desde 900 MXN/mes (incluye dominio, alojamiento y medición).",
+        "en": "Launch a fast, clear, and measurable landing page. More closed deals and better decisions with real data. Plans from 900 MXN/month, including domain, hosting, and analytics."
+      },
+      "image": "https://zoolandingpage.com.mx/assets/og-1200x630.svg",
+      "url": "https://zoolandingpage.com.mx/",
+      "type": "website"
+    },
+    "twitter": {
+      "title": {
+        "es": "Landing Page Optimizada: Convierte visitas en clientes | ZoolandingPage",
+        "en": "Optimized Landing Page: Turn visits into customers | ZoolandingPage"
+      },
+      "description": {
+        "es": "Publica una landing rápida, clara y medible. Más cierres de venta, mejores decisiones con datos. Suscripción desde 900 MXN/mes (incluye dominio, alojamiento y medición).",
+        "en": "Launch a fast, clear, and measurable landing page. More closed deals and better decisions with real data. Plans from 900 MXN/month, including domain, hosting, and analytics."
+      },
+      "image": "https://zoolandingpage.com.mx/assets/og-1200x630.svg",
+      "card": "summary_large_image"
+    },
+    "canonical": "https://zoolandingpage.com.mx/"
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "ZoolandingPage",
+        "description": "Landing page service focused on conversion, analytics, and rapid publishing.",
+        "url": "https://zoolandingpage.com.mx/",
+        "inLanguage": "es"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "ZoolandingPage",
+        "description": "Draft-driven landing page publishing and optimization service.",
+        "url": "https://zoolandingpage.com.mx/",
+        "logo": "https://zoolandingpage.com.mx/assets/logo-512x512.svg"
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "home",
+      "conversion-section",
+      "features-section",
+      "process-section",
+      "services-section",
+      "stats-strip-section",
+      "testimonials-section",
+      "faq-section",
+      "contact-section"
+    ],
+    "scrollMilestones": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+  }
+}

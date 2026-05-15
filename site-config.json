@@ -1,0 +1,236 @@
+{
+  "version": 1,
+  "domain": "zoolandingpage.com.mx",
+  "aliases": ["test.zoolandingpage.com.mx", "zoolandingpage.com"],
+  "defaultPageId": "default",
+  "routes": [
+    {
+      "path": "/",
+      "pageId": "default",
+      "label": "Home"
+    }
+  ],
+  "site": {
+    "theme": {
+      "defaultMode": "light",
+      "palettes": {
+        "light": {
+          "bgColor": "#f0ede7ff",
+          "textColor": "#2e2d2dff",
+          "titleColor": "#292929ff",
+          "linkColor": "#ffe819ff",
+          "accentColor": "#c1a42fff",
+          "secondaryBgColor": "#e5d2bfff",
+          "secondaryTextColor": "#19363F",
+          "secondaryTitleColor": "#163038ff",
+          "secondaryLinkColor": "#C33361",
+          "secondaryAccentColor": "#199F96",
+          "successColor": "#198754",
+          "onSuccessColor": "#052e1c",
+          "errorColor": "#dc3545",
+          "onErrorColor": "#3b0a10",
+          "warningColor": "#f59e0b",
+          "onWarningColor": "#3a2400",
+          "infoColor": "#0d6efd",
+          "onInfoColor": "#041b44"
+        },
+        "dark": {
+          "bgColor": "#1a1a1a",
+          "textColor": "#ffffff",
+          "titleColor": "#d8dadbff",
+          "linkColor": "#66b3ff",
+          "accentColor": "#225783ff",
+          "secondaryBgColor": "#2d2d2d",
+          "secondaryTextColor": "#d9dcdfff",
+          "secondaryTitleColor": "#6cc3e6ff",
+          "secondaryLinkColor": "#30a464ff",
+          "secondaryAccentColor": "#20673cff",
+          "successColor": "#198754",
+          "onSuccessColor": "#f3fff8",
+          "errorColor": "#ff6b6b",
+          "onErrorColor": "#fff5f5",
+          "warningColor": "#f5b942",
+          "onWarningColor": "#fff7e6",
+          "infoColor": "#58a6ff",
+          "onInfoColor": "#f5fbff"
+        }
+      }
+    },
+    "appIdentity": {
+      "identifier": "zoolandingpagecommx",
+      "name": "Zoo Landing Page",
+      "version": "1.0.0",
+      "description": "A modern zoo landing page built with Angular and ngx-angora-css"
+    },
+    "seo": {
+      "siteName": "ZoolandingPage",
+      "title": "ZoolandingPage",
+      "description": "Landing page service focused on conversion, analytics, and rapid publishing.",
+      "canonicalOrigin": "https://zoolandingpage.com.mx",
+      "defaultImage": "https://zoolandingpage.com.mx/assets/og-1200x630.svg",
+      "openGraph": {
+        "type": "website",
+        "site_name": "ZoolandingPage"
+      },
+      "twitter": {
+        "card": "summary_large_image"
+      },
+      "keywords": {
+        "es": [
+          "landing page",
+          "landing page optimizada",
+          "conversiones",
+          "analitica",
+          "medicion",
+          "seo",
+          "whatsapp",
+          "aws"
+        ],
+        "en": [
+          "landing page",
+          "optimized landing page",
+          "conversion optimization",
+          "analytics",
+          "measurement",
+          "seo",
+          "whatsapp",
+          "aws"
+        ]
+      },
+      "robots": "index,follow,max-image-preview:large"
+    },
+    "i18n": {
+      "defaultLanguage": "es",
+      "supportedLanguages": [
+        {
+          "code": "es",
+          "label": "ES"
+        },
+        {
+          "code": "en",
+          "label": "EN"
+        }
+      ]
+    }
+  },
+  "runtime": {
+    "localStorage": {
+      "theme": "zoo-landing-theme",
+      "language": "zoo-landing-language",
+      "userPreferences": "zoo-landing-preferences",
+      "id": "zoo-landing-id",
+      "sessionId": "zoo-landing-session-id",
+      "allowAnalytics": "zoo-landing-allow-analytics",
+      "analyticsConsentSnooze": "zoo-landing-allow-analytics-snooze",
+      "pageViewCount": "zoo-landing-page-view-count"
+    },
+    "features": {
+      "debugMode": false
+    },
+    "analytics": {
+      "enabled": true,
+      "consentUI": "none",
+      "consentSnoozeSeconds": 30,
+      "track": [
+        "userAgent",
+        "language",
+        "platform",
+        "vendor",
+        "cookiesEnabled",
+        "doNotTrack",
+        "screenWidth",
+        "screenHeight",
+        "colorDepth",
+        "timezone",
+        "connection"
+      ],
+      "events": {
+        "page_view": "page_view",
+        "nav_click": "nav_click",
+        "mobile_menu_open": "mobile_menu_open",
+        "mobile_menu_close": "mobile_menu_close",
+        "hero_primary_click": "hero_primary_click",
+        "hero_secondary_click": "hero_secondary_click",
+        "cta_click": "cta_click",
+        "final_cta_primary_click": "final_cta_primary_click",
+        "final_cta_secondary_click": "final_cta_secondary_click",
+        "toast_show": "toast_show",
+        "toast_hide": "toast_hide",
+        "error_throw": "error_throw",
+        "error_handle": "error_handle",
+        "action_trigger": "action_trigger",
+        "position_change": "position_change",
+        "clear": "clear",
+        "convertion": "convertion",
+        "whatsapp_click": "whatsapp_click",
+        "services_cta_click": "services_cta_click",
+        "section_view": "section_view",
+        "process_step_change": "process_step_change",
+        "scroll_depth": "scroll_depth",
+        "theme_toggle": "theme_toggle",
+        "language_toggle": "language_toggle",
+        "modal_open": "modal_open",
+        "modal_close": "modal_close",
+        "faq_open": "faq_open",
+        "faq_close": "faq_close",
+        "faq_cta_click": "faq_cta_click"
+      },
+      "categories": {
+        "navigation": "navigation",
+        "hero": "hero",
+        "cta": "cta",
+        "services": "services",
+        "engagement": "engagement",
+        "faq": "faq",
+        "modal": "modal",
+        "theme": "theme",
+        "i18n": "i18n",
+        "process": "process"
+      },
+      "quickStats": {
+        "pageView": {
+          "event": "page_view",
+          "path": "metrics.pageViews",
+          "by": 1
+        },
+        "events": [
+          {
+            "name": "hero_primary_click",
+            "path": "metrics.ctaClicks",
+            "by": 1
+          },
+          {
+            "name": "hero_secondary_click",
+            "path": "metrics.ctaClicks",
+            "by": 1
+          },
+          {
+            "name": "services_cta_click",
+            "path": "metrics.ctaClicks",
+            "by": 1
+          },
+          {
+            "name": "faq_cta_click",
+            "path": "metrics.ctaClicks",
+            "by": 1
+          },
+          {
+            "name": "cta_click",
+            "path": "metrics.ctaClicks",
+            "by": 1
+          },
+          {
+            "name": "final_cta_primary_click",
+            "path": "metrics.ctaClicks",
+            "by": 1
+          },
+          {
+            "name": "final_cta_secondary_click",
+            "path": "metrics.ctaClicks",
+            "by": 1
+          }
+        ]
+      }
+    }
+  }
+}

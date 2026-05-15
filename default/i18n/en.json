@@ -1,0 +1,592 @@
+{
+  "version": 1,
+  "pageId": "default",
+  "domain": "zoolandingpage.com.mx",
+  "lang": "en",
+  "dictionary": {
+    "hero": {
+      "title": "Turn visits into customers with a fast, clear and measurable Landing Page",
+      "subtitle": "Launch your Optimized Landing Page quickly, measure from day one, and improve with real data.",
+      "description": "Plans starting at 900 MXN/month. Includes domain, hosting and cloud analytics. Brand-aligned design, search-friendly, and clear calls to action to drive contact.",
+      "primary": {
+        "label": "Chat on WhatsApp",
+        "trackLabel": "cta_whatsapp_hero"
+      },
+      "secondary": {
+        "label": "See how it works",
+        "trackLabel": "cta_demo_hero"
+      },
+      "badges": [
+        "More closed deals",
+        "Loads in < 3s",
+        "Measurement from day 1",
+        "ES/EN optional",
+        "Accessible for everyone"
+      ],
+      "badgesLabel": "The features your new landing page will have:",
+      "mockup": {
+        "url": "🔒 https://your-business.com",
+        "logo": "LOGO",
+        "contact": "CONTACT",
+        "buyButton": "BUY",
+        "demoButton": "DEMO",
+        "ctaButton": "REQUEST INFO",
+        "badges": {
+          "conversion": "Conversion",
+          "speed": "Speed",
+          "seoOptimized": "SEO Optimized",
+          "mobileResponsive": "100% Mobile"
+        }
+      },
+      "floatingMetrics": {
+        "speed": "Speed",
+        "conversion": "Conversion",
+        "seoOptimized": "SEO Optimized",
+        "mobileResponsive": "100% Mobile"
+      }
+    },
+    "featuresSection": {
+      "title": "Key benefits for your business",
+      "subtitle": "Clarity, speed and measurement from day one to convert visits into customers with your landing page."
+    },
+    "features": [
+      {
+        "icon": "home",
+        "title": "What is an Optimized Landing Page?",
+        "description": "A page focused on a single goal: turning visits into customers. It avoids distractions and guides the visitor to contact or purchase.",
+        "benefits": [
+          "One clear goal: contact, purchase or schedule",
+          "3–5x higher conversion than cluttered sites",
+          "Straightforward message without noise",
+          "CTAs visible at the right moments",
+          "Fast load and simple navigation on mobile and desktop"
+        ]
+      },
+      {
+        "icon": "filter_alt",
+        "title": "Conversion-focused",
+        "description": "Designed as a sales funnel: clear messages, social proof and calls-to-action that move users forward.",
+        "benefits": [
+          "Generates real leads and opportunities",
+          "Less friction, more button clicks",
+          "Business value over tech jargon",
+          "WhatsApp and CTAs always within reach",
+          "Ready for ads and social traffic"
+        ]
+      },
+      {
+        "icon": "analytics",
+        "title": "Measurement from day 1",
+        "description": "We capture visits, clicks, and reading progress. You know what works and where to improve to sell more.",
+        "benefits": [
+          "Key events: CTAs and WhatsApp contact",
+          "Reading data: what users see and where they drop",
+          "Base for optimizing texts, sections and forms"
+        ]
+      },
+      {
+        "icon": "cloud",
+        "title": "Powered by Amazon Web Services (AWS)",
+        "description": "24/7 availability and global speed with no own servers. We use AWS, the trusted cloud behind millions of companies.",
+        "benefits": [
+          "Loads in < 3s from anywhere",
+          "Security certificate (SSL) included",
+          "Auto-scaling for traffic spikes",
+          "Global CDN for maximum speed",
+          "24/7 monitoring and high availability",
+          "Enterprise-grade infrastructure"
+        ]
+      },
+      {
+        "icon": "saved_search",
+        "title": "Fast, stable and search-ready",
+        "description": "Modern foundation with structured data for better search visibility. Fast, stable and ready to grow.",
+        "benefits": [
+          "Fewer drop-offs on mobile and desktop",
+          "Optimization so search engines can find you",
+          "SSL certificates and constant availability",
+          "Scalable in the cloud when needed"
+        ]
+      },
+      {
+        "icon": "psychology",
+        "title": "AI-assisted content and improvements",
+        "description": "AI-assisted proposals and copy, always reviewed by humans. More variants and better options faster.",
+        "benefits": [
+          "Data-guided quick iterations",
+          "Clear, conversion-oriented copy",
+          "Visuals aligned to your brand",
+          "Optional continuous optimization"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "icon": "rocket_launch",
+        "title": "Optimized Landing Page",
+        "description": "Launch in days a fast, clear and measurable landing. Designed to turn visits into real customers.",
+        "benefits": [
+          "Responsive design for mobile, tablet and desktop",
+          "Fast loading and smooth experience",
+          "Basic SEO and structured data",
+          "Measurement from day 1 (clicks and contact)",
+          "WhatsApp and CTAs placed strategically"
+        ],
+        "color": "linkColor",
+        "buttonLabel": "Request info"
+      },
+      {
+        "icon": "trending_up",
+        "title": "Optimization & Analysis",
+        "description": "Continuous improvement based on real data: A/B tests, content adjustments and impact-first priorities.",
+        "benefits": [
+          "CTA and sales flow optimization",
+          "Actionable recommendations",
+          "A/B testing and results-driven changes (optional)",
+          "Simple reports with key metrics (optional)"
+        ],
+        "color": "secondaryAccentColor",
+        "buttonLabel": "Request info"
+      },
+      {
+        "icon": "groups",
+        "title": "Guidance & Support",
+        "description": "Support from start to finish: content, styling, publishing and basic maintenance.",
+        "benefits": [
+          "Content and structure guidance",
+          "Visual customization (light/dark mode and colors)",
+          "Publishing on a reliable server with SSL certificates",
+          "Ongoing support and improvements"
+        ],
+        "color": "accentColor",
+        "buttonLabel": "Request info"
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Mary Gonzalez",
+        "role": "Marketing Director",
+        "company": "TechStart Solutions",
+        "content": "In three months our conversion rate increased and cost per lead dropped. Clarity and speed made the difference.",
+        "rating": 5,
+        "avatar": "👩‍💼",
+        "verified": true
+      },
+      {
+        "name": "Charles Rodriguez",
+        "role": "CEO",
+        "company": "Innovate Commerce",
+        "content": "We recovered the investment in 60 days. The measurement helped us optimize campaigns without overspending.",
+        "rating": 5,
+        "avatar": "👨‍💼",
+        "verified": true
+      },
+      {
+        "name": "Anna Fernandez",
+        "role": "Founder",
+        "company": "Creative Studio",
+        "content": "Clear message, social proof, and visible CTAs: more real inquiries and better follow-up.",
+        "rating": 4,
+        "avatar": "👩‍🎨"
+      }
+    ],
+    "processSection": {
+      "title": "How we do it",
+      "sidebarTitle": "Our Process",
+      "detailedDescriptionLabel": "Detailed Description:",
+      "deliverablesLabel": "Deliverables:"
+    },
+    "process": [
+      {
+        "step": 1,
+        "title": "Discovery",
+        "summary": "We understand your goals, value proposition and target audience.",
+        "content": "Brief meeting to learn about your business, value proposition and audience. We define messages and prioritize essentials for quick launch.",
+        "meta": "1-3 business days",
+        "detailItems": [
+          "Clear summary of objectives",
+          "Key messages and suggested structure",
+          "Requirements checklist"
+        ],
+        "isActive": true
+      },
+      {
+        "step": 2,
+        "title": "AI-powered rapid prototype",
+        "summary": "We show you a navigable demo with texts and initial design.",
+        "content": "AI + human review for a demo with texts, colors and visual structure. You'll see how your landing would look.",
+        "meta": "3-5 business days",
+        "detailItems": [
+          "Navigable demo",
+          "Conversion-oriented texts",
+          "Base design and styles",
+          "Basic measurement ready from the start"
+        ],
+        "isActive": false
+      },
+      {
+        "step": 3,
+        "title": "Review and changes",
+        "summary": "We review together and adjust what impacts results the most.",
+        "content": "Brief feedback, we prioritize highest-impact changes to align message and design.",
+        "meta": "1-5 business days",
+        "detailItems": [
+          "Prioritized change list",
+          "Brief plan to implement improvements"
+        ],
+        "isActive": false
+      },
+      {
+        "step": 4,
+        "title": "Launch",
+        "summary": "We publish your landing with active measurement and basic SEO.",
+        "content": "Final adjustments, domain connection, active security certificates (SSL) and measurement verification.",
+        "meta": "2-3 business days",
+        "detailItems": [
+          "Published and reviewed landing",
+          "Active security certificates (SSL) and basic SEO",
+          "Click and contact measurement"
+        ],
+        "isActive": false
+      },
+      {
+        "step": 5,
+        "title": "Real data",
+        "summary": "We analyze results and propose actionable improvements.",
+        "content": "We monitor clicks and contacts. We share simple report and suggestions for improvement.",
+        "meta": "From launch",
+        "detailItems": [
+          "Click and contact metrics",
+          "Simple results report",
+          "Initial improvement suggestions",
+          "Optional: preparation for advanced analysis"
+        ],
+        "isActive": false
+      },
+      {
+        "step": 6,
+        "title": "Continuous improvement (optional)",
+        "summary": "We test changes and improve based on data.",
+        "content": "We continue testing variants and applying improvements based on results to attract more customers.",
+        "meta": "Optional ongoing service",
+        "detailItems": [
+          "Documented tests and results",
+          "List of suggested improvements"
+        ],
+        "isActive": false
+      }
+    ],
+    "faqSection": {
+      "footerQuestion": "Do you have any other questions?",
+      "footerButtonLabel": "Contact us",
+      "placeholderQuestions": [
+        "What is a landing page and why do I need it?",
+        "How long does it take to create my landing page?",
+        "What does the complete service include?",
+        "What is the price range?"
+      ]
+    },
+    "faq": [
+      {
+        "id": "what-is-landing-page",
+        "title": "What is an Optimized Landing Page?",
+        "content": "It's a fast, clear page focused on a single goal: converting visits into customers. Includes measurement to know what works and where to improve."
+      },
+      {
+        "id": "how-long-takes",
+        "title": "How long will it take to be ready?",
+        "content": "In days, depending on content and adjustments. We work with AI-assisted rapid prototypes and brief reviews to go to production as soon as possible."
+      },
+      {
+        "id": "what-included",
+        "title": "What does the subscription include?",
+        "content": "From 900 MXN/month: domain, hosting, cloud measurement, support and improvements. Optional: ES/EN version, simple reports and continuous optimization."
+      },
+      {
+        "id": "price-range",
+        "title": "Can I use my domain?",
+        "content": "Yes. We connect your current domain or help you set it up from scratch. We include SSL certificate."
+      },
+      {
+        "id": "support-after",
+        "title": "How will I see results?",
+        "content": "As an additional service, you can receive simple reports with key metrics: visits, CTA clicks and WhatsApp contacts."
+      },
+      {
+        "id": "can-change-language",
+        "title": "Can I have a Spanish and English version?",
+        "content": "Yes, it's optional. We show content in the visitor's preferred language and remember their choice."
+      },
+      {
+        "id": "how-measure",
+        "title": "What exactly do we measure?",
+        "content": "Clicks on main buttons, WhatsApp contacts, reading progress and sections with most attention. This guides improvements with evidence."
+      },
+      {
+        "id": "requirements",
+        "title": "What do I need to get started?",
+        "content": "A brief description of your business, benefits to highlight, testimonials if you have them and current contact methods. If you have brand colors, they will also help."
+      }
+    ],
+    "conversionNote": {
+      "title": "What does a conversion improvement mean?",
+      "question": "What does a conversion improvement mean?",
+      "investmentLabel": "Visits",
+      "investmentValue": "1,000",
+      "totalReturnLabel": "Key Actions",
+      "totalReturnValue": "3.5x",
+      "explanation": "It's an estimate based on industry data and comparable cases. We measure from day 1 to validate with real data and prioritize improvements.",
+      "conversionDescription": "A <strong class=\"ank-color-secondaryAccentColor\">+350%</strong> increase in conversion indicates significantly higher performance from your visits: more clicks on calls to action and more real contacts with the same budget."
+    },
+    "statsStrip": {
+      "title": "Real, measured results",
+      "subtitle": "Key metrics in your funnel",
+      "description": "We track visits, CTA clicks and average time on page to prioritize improvements with data.",
+      "visitsLabel": "Landing visits",
+      "ctaInteractionsLabel": "CTA interactions",
+      "averageTimeLabel": "Average time on landing"
+    },
+    "calculator": {
+      "title": "Conversion Calculator",
+      "subtitle": "Estimate the impact on conversions and sales with your own setup",
+      "description": "Based on industry averages and real cases; adjust size, industry, and visitors to simulate.",
+      "businessSizeLabels": {
+        "nano": {
+          "title": "Nano Business",
+          "description": "1-2 employees"
+        },
+        "micro": {
+          "title": "Micro Business",
+          "description": "3-10 employees"
+        },
+        "small": {
+          "title": "Small Business",
+          "description": "11-50 employees"
+        },
+        "medium": {
+          "title": "Medium Business",
+          "description": "51-250 employees"
+        }
+      },
+      "industryLabels": {
+        "ecommerce": "E-commerce",
+        "services": "Professional Services",
+        "restaurant": "Restaurant",
+        "health": "Health",
+        "education": "Education",
+        "real-estate": "Real Estate",
+        "consulting": "Consulting"
+      },
+      "visitorsLabel": "Monthly visitors",
+      "resultsTitle": "Estimated Results",
+      "monthlyIncreaseLabel": "Additional monthly revenue",
+      "conversionImprovementLabel": "Estimated conversion improvement"
+    },
+    "finalCtaSection": {
+      "title": "Publish a landing page that sells and learn with real data",
+      "subtitle": "Start today with an Optimized Landing Page: fast, clear and measurable.\nSubscription from 900 MXN/month.",
+      "primaryLabel": "Chat on WhatsApp",
+      "secondaryLabel": "Start selling with your new Landing Page",
+      "trustSignals": {
+        "first": "⭐ Measurement from day 1 • 🔒 SSL and hosting included • ⚡ Fast delivery",
+        "second": [
+          "💬 Continuous support",
+          "📊 Optional simple reports",
+          "🌐 Search engine optimization"
+        ]
+      }
+    },
+    "ui": {
+      "controls": {
+        "languageToggle": "Change language"
+      },
+      "accessibility": {
+        "skipToContent": "Skip to main content",
+        "primaryNavigation": "Primary navigation",
+      "mobileMenuAriaLabel": "menu Navigation menu",
+        "openMenu": "Open menu",
+        "analyticsConsentDialog": "Analytics consent dialog",
+        "dialog": "Dialog",
+        "dialogOpened": "Dialog opened",
+        "dialogClosed": "Dialog closed"
+      },
+      "debugPanel": {
+        "downloadDraftPayloads": "Download draft payloads",
+        "writeDraftsToDisk": "Write drafts to disk",
+        "configIssues": "Config issues",
+        "analyticsLatest": "Latest analytics events",
+        "unknownComponentPrefix": "Unknown component"
+      },
+      "sections": {
+        "services": {
+          "title": "Services to sell more",
+          "subtitle": "From quick publishing to continuous improvement based on data",
+          "cta": "Request info"
+        },
+        "testimonials": {
+          "title": "Results that inspire trust (Demo section)",
+          "subtitle": "Brief stories from clients already acquiring better leads and spending smarter"
+        },
+        "faq": {
+          "title": "Frequently Asked Questions",
+          "subtitle": "We resolve the most common questions about our landing page service"
+        },
+        "finalCta": {
+          "title": "Publish a landing that sells and learn from real data",
+          "subtitle": "Start today with an Optimized Landing Page: fast, clear, and measurable.\nPlans from 900 MXN/month.",
+          "primaryLabel": "Chat on WhatsApp",
+          "secondaryLabel": "Start selling with your new Landing Page"
+        }
+      },
+      "loading": {
+        "calculator": "Calculating Conversion…",
+        "testimonials": "Loading testimonials…",
+        "faq": "Loading frequently asked questions…"
+      },
+      "contact": {
+        "label": "CONTACT",
+        "whatsappMessage": "Hello! I'm interested in learning more about your technology consulting services for landing pages. Could you help me?"
+      }
+    },
+    "demo": {
+      "title": "Components Demo",
+      "modal": {
+        "title": "Demo Modal",
+        "header": "Demo Modal",
+        "desc": "This is a demo modal. You can use this area to show any custom content, actions, or information for your users.",
+        "features": [
+          "Fully customizable content",
+          "Supports actions and rich UI",
+          "Close with the button below"
+        ],
+        "close": "Close",
+        "button": {
+          "open": "Open Demo Modal"
+        },
+        "action": {
+          "confirm": "Confirm",
+          "cancel": "Cancel"
+        },
+        "actions": {
+          "primary": "Primary Action",
+          "secondary": "Secondary Action"
+        },
+        "info": "This is a demo modal for showcasing custom actions and content.",
+        "closeLabel": "Close Modal"
+      },
+      "toast": {
+        "success": "Order processed successfully!",
+        "error": "Network connection failed",
+        "warning": "Your session will expire in 5 minutes",
+        "info": "New features available in settings",
+        "fileUploadTitle": "File Upload Complete",
+        "fileUploadText": "Your document has been uploaded and processed successfully.",
+        "unsavedTitle": "Unsaved Changes",
+        "unsavedText": "You have unsaved changes. Do you want to save before leaving?",
+        "unsavedSave": "Save",
+        "criticalTitle": "Critical Error",
+        "criticalText": "The operation could not be completed. Please contact support if this issue persists.",
+        "contactSupport": "Contact Support",
+        "tryAgain": "Try Again",
+        "updateTitle": "Update Available",
+        "updateText": "Version 2.1.0 is ready to install with new features and bug fixes.",
+        "updateNow": "Update Now",
+        "viewChanges": "View Changes",
+        "later": "Later",
+        "updateStarted": "Update started! Application will restart automatically.",
+        "openingChangelog": "Opening changelog...",
+        "updatePostponed": "Update postponed. You'll be reminded in 24 hours.",
+        "positionChanged": "Position changed to: {{position}}",
+        "allCleared": "All notifications cleared",
+        "changesSaved": "Changes saved successfully!",
+        "discard": "Discard",
+        "openingSupport": "Opening support chat...",
+        "button": {
+          "success": "Show Success Toast",
+          "error": "Show Error Toast",
+          "warning": "Show Warning Toast",
+          "info": "Show Info Toast",
+          "fileUpload": "Show File Upload Toast",
+          "unsaved": "Show Unsaved Changes Toast",
+          "critical": "Show Critical Error Toast",
+          "action": "Show Action Toast",
+          "position": "Show Position Toast",
+          "clear": "Clear All Toasts"
+        }
+      }
+    },
+    "consent": {
+      "title": "Analytics & Cookies",
+      "intro": "Anonymous analytics are enabled by default to help us improve the experience. You can remove consent at any time in settings.",
+      "bullets": [
+        "No personal data collected.",
+        "Helps fix issues and prioritize features.",
+        "You may opt-out at any time."
+      ],
+      "actions": {
+        "allow": "Allow",
+        "decline": "Decline",
+        "remove": "Remove Consent",
+        "later": "Later",
+        "confirm": "Yes, remove",
+        "cancel": "No, keep enabled"
+      },
+      "feedback": {
+        "snoozed": "We'll ask you again later.",
+        "removed": "Consent removed. Only essential events and anonymous session data are sent.",
+        "confirmRemove": "Are you sure you want to remove consent? Analytics will be disabled except for essential events."
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Zoo Landing Page. All rights reserved.",
+      "actions": {
+        "close": "Close"
+      },
+      "social": {
+        "facebook": {
+          "label": "Facebook",
+          "ariaLabel": "Visit our Facebook page"
+        },
+        "twitter": {
+          "label": "Twitter",
+          "ariaLabel": "Follow us on Twitter"
+        },
+        "instagram": {
+          "label": "Instagram",
+          "ariaLabel": "Follow us on Instagram"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "terms": {
+          "icon": "§",
+          "link": "Terms of Service",
+          "title": "Terms of Service",
+          "intro": "These Terms of Service govern your use of this landing page. By continuing to browse or interact with this website, you agree to these terms.",
+          "sections": [
+            "Purpose and Content: This landing page showcases our services and provides educational content. Information is provided as-is and may change without notice.",
+            "Acceptable Use: You agree not to misuse the site, attempt unauthorized access, or interfere with its operation. Any abuse may result in restricted access.",
+            "Intellectual Property: All trademarks, logos, and content displayed are property of their respective owners and may not be reused without permission.",
+            "Privacy and Analytics: We use anonymous analytics, subject to your consent, to improve performance and user experience. See 'Use of Data' for details."
+          ]
+        },
+        "data": {
+          "icon": "◌",
+          "link": "Data Privacy",
+          "title": "Data Privacy",
+          "intro": "Analytics are enabled by default. We collect minimal, privacy-respecting information to improve this site. You may remove consent at any time.",
+          "points": [
+            "Anonymous analytics are enabled by default. No personal data is required for basic usage.",
+            "Technical metrics (e.g., device, language, viewport, performance) help us fix issues and prioritize improvements.",
+            "If you remove consent, only essential events, session ID, and local ID are sent.",
+            "You may remove consent at any time by updating preferences."
+          ],
+          "consentNote": "Analytics are enabled by default. By removing consent, only essential events and anonymous session data are sent."
+        }
+      }
+    },
+    "app": {
+      "name": "Zoo Landing Page"
+    }
+  }
+}
