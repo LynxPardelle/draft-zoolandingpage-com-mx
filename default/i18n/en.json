@@ -5,7 +5,7 @@
   "lang": "en",
   "dictionary": {
     "hero": {
-      "title": "Turn visits into customers with a fast, clear and measurable Landing Page",
+      "title": "Turn visits into customers with fast, clear and measurable Landing Page",
       "subtitle": "Launch your Optimized Landing Page quickly, measure from day one, and improve with real data.",
       "description": "Plans starting at 900 MXN/month. Includes domain, hosting and cloud analytics. Brand-aligned design, search-friendly, and clear calls to action to drive contact.",
       "primary": {
@@ -230,10 +230,7 @@
         "summary": "We review together and adjust what impacts results the most.",
         "content": "Brief feedback, we prioritize highest-impact changes to align message and design.",
         "meta": "1-5 business days",
-        "detailItems": [
-          "Prioritized change list",
-          "Brief plan to implement improvements"
-        ],
+        "detailItems": ["Prioritized change list", "Brief plan to implement improvements"],
         "isActive": false
       },
       {
@@ -269,10 +266,7 @@
         "summary": "We test changes and improve based on data.",
         "content": "We continue testing variants and applying improvements based on results to attract more customers.",
         "meta": "Optional ongoing service",
-        "detailItems": [
-          "Documented tests and results",
-          "List of suggested improvements"
-        ],
+        "detailItems": ["Documented tests and results", "List of suggested improvements"],
         "isActive": false
       }
     ],
@@ -389,11 +383,7 @@
       "secondaryLabel": "Start selling with your new Landing Page",
       "trustSignals": {
         "first": "⭐ Measurement from day 1 • 🔒 SSL and hosting included • ⚡ Fast delivery",
-        "second": [
-          "💬 Continuous support",
-          "📊 Optional simple reports",
-          "🌐 Search engine optimization"
-        ]
+        "second": ["💬 Continuous support", "📊 Optional simple reports", "🌐 Search engine optimization"]
       }
     },
     "ui": {
@@ -403,7 +393,7 @@
       "accessibility": {
         "skipToContent": "Skip to main content",
         "primaryNavigation": "Primary navigation",
-      "mobileMenuAriaLabel": "menu Navigation menu",
+        "mobileMenuAriaLabel": "menu Navigation menu",
         "openMenu": "Open menu",
         "analyticsConsentDialog": "Analytics consent dialog",
         "dialog": "Dialog",
@@ -454,11 +444,7 @@
         "title": "Demo Modal",
         "header": "Demo Modal",
         "desc": "This is a demo modal. You can use this area to show any custom content, actions, or information for your users.",
-        "features": [
-          "Fully customizable content",
-          "Supports actions and rich UI",
-          "Close with the button below"
-        ],
+        "features": ["Fully customizable content", "Supports actions and rich UI", "Close with the button below"],
         "close": "Close",
         "button": {
           "open": "Open Demo Modal"

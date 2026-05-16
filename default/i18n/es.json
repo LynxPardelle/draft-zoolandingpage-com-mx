@@ -5,7 +5,7 @@
   "lang": "es",
   "dictionary": {
     "hero": {
-      "title": "Convierte visitas en clientes con una Landing Page rápida, clara y medible",
+      "title": "Convierte visitas en clientes con una Landing Page clara, medible y con dominio incluido",
       "subtitle": "Lanza tu Landing Page Optimizada rápidamente, mide desde el primer día y mejora con datos reales.",
       "description": "Suscripción desde 900 MXN/mes. Incluye dominio, alojamiento y medición en la nube. Diseño alineado a tu marca, optimización para buscadores y llamados a la acción visibles para impulsar el contacto.",
       "primary": {
@@ -230,10 +230,7 @@
         "summary": "Revisamos juntos y ajustamos lo que más impacta en resultados.",
         "content": "Retroalimentación breve, priorizamos cambios de mayor impacto para alinear mensaje y diseño.",
         "meta": "1-5 días hábiles",
-        "detailItems": [
-          "Lista de cambios priorizados",
-          "Plan breve para implementar mejoras"
-        ],
+        "detailItems": ["Lista de cambios priorizados", "Plan breve para implementar mejoras"],
         "isActive": false
       },
       {
@@ -269,10 +266,7 @@
         "summary": "Probamos cambios y mejoramos con base en datos.",
         "content": "Seguimos probando variantes y aplicando mejoras según resultados para captar más clientes.",
         "meta": "Servicio opcional continuo",
-        "detailItems": [
-          "Pruebas y resultados documentados",
-          "Lista de mejoras sugeridas"
-        ],
+        "detailItems": ["Pruebas y resultados documentados", "Lista de mejoras sugeridas"],
         "isActive": false
       }
     ],
@@ -389,11 +383,7 @@
       "secondaryLabel": "Empieza a vender con tu nueva Landing Page",
       "trustSignals": {
         "first": "⭐ Medición desde el día 1 • 🔒 SSL y hosting incluido • ⚡ Entrega rápida",
-        "second": [
-          "💬 Soporte continuo",
-          "📊 Reportes simples opcionales",
-          "🌐 Optimización para buscadores"
-        ]
+        "second": ["💬 Soporte continuo", "📊 Reportes simples opcionales", "🌐 Optimización para buscadores"]
       }
     },
     "ui": {
@@ -403,7 +393,7 @@
       "accessibility": {
         "skipToContent": "Saltar al contenido principal",
         "primaryNavigation": "Navegación principal",
-      "mobileMenuAriaLabel": "menu Menú de navegación",
+        "mobileMenuAriaLabel": "menu Menú de navegación",
         "openMenu": "Abrir menú",
         "analyticsConsentDialog": "Diálogo de consentimiento de analítica",
         "dialog": "Diálogo",

@@ -2,8 +2,17 @@
   "version": 1,
   "pageId": "default",
   "domain": "zoolandingpage.com.mx",
-  "rootIds": ["skipToMainLink", "siteHeader", "landingPage", "siteFooter"],
-  "modalRootIds": ["modalAnalyticsConsentRoot", "modalTermsRoot", "modalDataUseRoot"],
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "landingPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [
+    "modalAnalyticsConsentRoot",
+    "modalTermsRoot",
+    "modalDataUseRoot"
+  ],
   "metadata": {},
   "seo": {
     "title": {
@@ -73,6 +82,17 @@
       "faq-section",
       "contact-section"
     ],
-    "scrollMilestones": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+    "scrollMilestones": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
   }
 }

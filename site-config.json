@@ -1,7 +1,12 @@
 {
   "version": 1,
   "domain": "zoolandingpage.com.mx",
-  "aliases": ["test.zoolandingpage.com.mx", "zoolandingpage.com"],
+  "aliases": [
+    "test.zoolandingpage.com.mx",
+    "zoolandingpage.com",
+    "sulandingpage.com.mx",
+    "sulandingpage.com"
+  ],
   "defaultPageId": "default",
   "routes": [
     {

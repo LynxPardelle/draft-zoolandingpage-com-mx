@@ -48,6 +48,29 @@
       }
     },
     {
+      "id": "primaryCTADesktop",
+      "type": "button",
+      "eventInstructions": "openWhatsApp:event.meta_title,hero_primary,hero",
+      "meta_title": "hero_primary_click",
+      "valueInstructions": "set:config.label,i18n,hero.primary.label",
+      "config": {
+        "label": "",
+        "classes": "btnBaseVALSVL1_25remVL0_75remVL ank-bg-successColor ank-color-light ank-border-2px__solid__rgbaSD0COM0COM0COM0_88ED ank-boxShadow-4px__4px__0__0__rgbaSD0COM0COM0COM0_88ED ank-boxShadowHover-6px__6px__0__0__rgbaSD0COM0COM0COM0_95ED"
+      }
+    },
+    {
+      "id": "secondaryCTADesktop",
+      "condition": "all:i18n,hero.secondary",
+      "type": "button",
+      "eventInstructions": "trackEvent:event.meta_title,cta,hero:secondary,location,hero;navigationToSection:features-section",
+      "meta_title": "hero_secondary_click",
+      "valueInstructions": "set:config.label,i18n,hero.secondary.label",
+      "config": {
+        "label": "",
+        "classes": "btnBaseVALSVL1_25remVL0_75remVL btnTypeOutlineVALSVLsecondaryLinkColorVLtextColorVL"
+      }
+    },
+    {
       "id": "faqFooterButton",
       "type": "button",
       "eventInstructions": "openFaqCtaWhatsApp",
@@ -110,9 +133,7 @@
         "id": "home",
         "tag": "div",
         "classes": "ank-width-100vw ank-py-2rem ank-px-1rem ank-boxSizing-borderMINbox ank-bg-secondaryBgColor ank-position-relative",
-        "components": [
-          "heroContainerInner"
-        ]
+        "components": ["heroContainerInner", "badgesContainer"]
       }
     },
     {
@@ -121,11 +142,8 @@
       "config": {
         "id": "_home",
         "tag": "div",
-        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-lg-1fr__1fr ank-gap-2rem ank-alignItems-center ank-maxWidth-1280px ank-marginLeft-auto ank-marginRight-auto",
-        "components": [
-          "heroLeft",
-          "heroRight"
-        ]
+        "classes": "ank-display-md-grid ank-gridTemplateColumns-lg-50per__50per ank-gap-2rem ank-alignItems-center ank-maxWidth-1280px ank-marginLeft-auto ank-marginRight-auto",
+        "components": ["heroLeft", "heroRight"]
       }
     },
     {
@@ -134,25 +152,16 @@
       "config": {
         "tag": "div",
         "classes": "ank-textAlign-center ank-textAlign-lg-left ank-width-100per ank-maxWidth-100per ank-overflow-hidden ank-boxSizing-borderBox",
-        "components": [
-          "mainTitle",
-          "subtitle",
-          "description",
-          "ctaContainer",
-          "badgesContainer"
-        ]
+        "components": ["mainTitle", "subtitle", "description", "ctaContainerMobile"]
       }
     },
     {
-      "id": "ctaContainer",
+      "id": "ctaContainerMobile",
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-flexDirection-sm-row ank-gap-1rem ank-justifyContent-center ank-justifyContent-lg-start ank-alignItems-center ng-trigger ng-trigger-fadeInDelay",
-        "components": [
-          "primaryCTA",
-          "secondaryCTA"
-        ]
+        "classes": "ank-display-flex ank-display-lg-none ank-flexDirection-column ank-flexDirection-sm-row ank-gap-1rem ank-justifyContent-center ank-alignItems-center ng-trigger ng-trigger-fadeInDelay ank-mb-2rem",
+        "components": ["primaryCTA", "secondaryCTA"]
       }
     },
     {
@@ -161,11 +170,8 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-mt-2rem ank-display-flex ank-flexDirection-column ank-alignItems-center ank-alignItems-lg-start ank-gap-1rem",
-        "components": [
-          "badgesLabel",
-          "badgesListContainer"
-        ]
+        "classes": "ank-mt-2rem ank-wmx-1280px ank-display-flex ank-flexDirection-column ank-alignItems-center ank-alignItems-lg-start ank-gap-1rem ank-mx-auto",
+        "components": ["badgesLabel", "badgesListContainer"]
       }
     },
     {
@@ -179,7 +185,7 @@
       },
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-8px ank-alignItems-center ank-alignItems-lg-start",
+        "classes": "ank-display-flex ank-flexDirection-column ank-flexDirection-md-row ank-gap-8px ank-alignItems-center ank-alignItems-lg-start",
         "components": []
       }
     },
@@ -189,10 +195,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-display-flex ank-alignItems-center ank-gap-8px ank-bg-bgColorOPA__0_8 ank-borderRadius-24px ank-px-12px ank-px-lg-20px ank-py-6px ank-border-1px ank-borderColor-textColorOPA__0_2 ank-backdropFilter-blurSD8pxED ank-minWidth-120px ank-minWidth-lg-160px",
-        "components": [
-          "badgePoint",
-          "badgeText__{{index}}"
-        ]
+        "components": ["badgePoint", "badgeText__{{index}}"]
       }
     },
     {
@@ -209,6 +212,15 @@
       "config": {
         "tag": "div",
         "classes": "ank-position-relative ank-wmx-85vw ank-justifySelf-center ank-alignSelf-start",
+        "components": ["heroMockup", "ctaContainerDesktop"]
+      }
+    },
+    {
+      "id": "heroMockup",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-position-relative ank-wmx-85vw ank-justifySelf-center ank-alignSelf-start",
         "components": [
           "heroImageMockup",
           "heroBrowserMockup",
@@ -218,6 +230,15 @@
           "heroVerifiedBadge",
           "heroMobileBadge"
         ]
+      }
+    },
+    {
+      "id": "ctaContainerDesktop",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-none ank-display-lg-flex ank-width-100per ank-gap-1rem ank-flexWrap-wrap ank-justifyContent-center ank-alignItems-center ank-mt-5rem ng-trigger ng-trigger-fadeInDelay",
+        "components": ["primaryCTADesktop", "secondaryCTADesktop"]
       }
     },
     {
@@ -236,10 +257,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-bg-textColor ank-borderRadius-1rem ank-p-0 cardHover ank-position-relative ank-zIndex-10 ank-boxShadow-0__8px__30px__rgbaSD0COM0COM0COM0_12ED",
-        "components": [
-          "heroBrowserMockupHeader",
-          "heroBrowserMockupdLandingPage"
-        ]
+        "components": ["heroBrowserMockupHeader", "heroBrowserMockupdLandingPage"]
       }
     },
     {
@@ -248,10 +266,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-bg-titleColor ank-borderRadius-1rem__1rem__0__0 ank-p-1rem ank-display-flex ank-alignItems-center ank-gap-1rem ank-borderBottom-1px__solid__titleColor",
-        "components": [
-          "heroBrowserMockupHeaderFakeButtons",
-          "heroBrowserMockupHeaderFakeUrlBar"
-        ]
+        "components": ["heroBrowserMockupHeaderFakeButtons", "heroBrowserMockupHeaderFakeUrlBar"]
       }
     },
     {
@@ -297,9 +312,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-bg-textColor ank-borderRadius-0_375rem ank-px-1rem ank-py-0_375rem ank-flexGrow-1 ank-fs-1rem ank-color-bgColor",
-        "components": [
-          "heroBrowserMockupHeaderFakeUrlBarText"
-        ]
+        "components": ["heroBrowserMockupHeaderFakeUrlBarText"]
       }
     },
     {
@@ -336,9 +349,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-bg-accentColor ank-borderRadius-0_375rem ank-width-6rem ank-height-1_5rem ank-display-flex ank-alignItems-center ank-justifyContent-center",
-        "components": [
-          "heroLandingMockupLogoText"
-        ]
+        "components": ["heroLandingMockupLogoText"]
       }
     },
     {
@@ -363,9 +374,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-bg-accentColor ank-borderRadius-0_375rem ank-width-5rem ank-height-1_5rem ank-display-flex ank-alignItems-center ank-justifyContent-center ank-px-1rem",
-        "components": [
-          "heroLandingMockupNavCtaText"
-        ]
+        "components": ["heroLandingMockupNavCtaText"]
       }
     },
     {
@@ -403,10 +412,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-display-flex ank-justifyContent-center ank-gap-1rem ank-mb-1_25rem",
-        "components": [
-          "heroLandingMockupContentCTA1",
-          "heroLandingMockupContentCTA2"
-        ]
+        "components": ["heroLandingMockupContentCTA1", "heroLandingMockupContentCTA2"]
       }
     },
     {
@@ -415,9 +421,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-bg-secondaryAccentColor ank-borderStyle-solid ank-borderColor-secondaryAccentColor ank-borderRadius-0_375rem ank-width-6rem ank-height-1_5rem ank-display-flex ank-alignItems-center ank-justifyContent-center",
-        "components": [
-          "heroLandingMockupContentCTA1Text"
-        ]
+        "components": ["heroLandingMockupContentCTA1Text"]
       }
     },
     {
@@ -426,9 +430,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-border-2px__solid__secondaryAccentColor ank-borderRadius-0_375rem ank-width-6rem ank-height-1_5rem ank-display-flex ank-alignItems-center ank-justifyContent-center",
-        "components": [
-          "heroLandingMockupContentCTA2Text"
-        ]
+        "components": ["heroLandingMockupContentCTA2Text"]
       }
     },
     {
@@ -437,11 +439,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-display-grid ank-gridTemplateColumns-1fr__1fr__1fr ank-gap-1rem ank-mb-1_25rem",
-        "components": [
-          "heroLandingMockupFeature1",
-          "heroLandingMockupFeature2",
-          "heroLandingMockupFeature3"
-        ]
+        "components": ["heroLandingMockupFeature1", "heroLandingMockupFeature2", "heroLandingMockupFeature3"]
       }
     },
     {
@@ -489,9 +487,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-bg-accentColor ank-borderRadius-0_25rem ank-width-1_5rem ank-height-1_5rem ank-mx-auto ank-mb-0_75rem ank-display-flex ank-alignItems-center ank-justifyContent-center",
-        "components": [
-          "speed"
-        ]
+        "components": ["speed"]
       }
     },
     {
@@ -500,9 +496,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-bg-success ank-borderRadius-0_25rem ank-width-1_5rem ank-height-1_5rem ank-mx-auto ank-mb-0_75rem ank-display-flex ank-alignItems-center ank-justifyContent-center",
-        "components": [
-          "security"
-        ]
+        "components": ["security"]
       }
     },
     {
@@ -511,9 +505,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-bg-info ank-borderRadius-0_25rem ank-width-1_5rem ank-height-1_5rem ank-mx-auto ank-mb-0_75rem ank-display-flex ank-alignItems-center ank-justifyContent-center",
-        "components": [
-          "analytics"
-        ]
+        "components": ["analytics"]
       }
     },
     {
@@ -538,10 +530,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-bg-titleColor ank-borderRadius-0_75rem ank-p-1_25rem ank-textAlign-center",
-        "components": [
-          "heroLandingMockupFooterText",
-          "heroLandingMockupFooterLink"
-        ]
+        "components": ["heroLandingMockupFooterText", "heroLandingMockupFooterLink"]
       }
     },
     {
@@ -558,9 +547,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-bg-accentColor ank-borderRadius-0_375rem ank-width-10rem ank-height-2rem ank-mx-auto ank-display-flex ank-alignItems-center ank-justifyContent-center",
-        "components": [
-          "heroLandingMockupFooterLinkText"
-        ]
+        "components": ["heroLandingMockupFooterLinkText"]
       }
     },
     {
@@ -569,11 +556,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-position-absolute ank-top-0 ank-left-0 ank-width-100per ank-height-100per ank-pointerEvents-none ank-zIndex-10",
-        "components": [
-          "heroAnimatedElement1",
-          "heroAnimatedElement2",
-          "heroAnimatedElement3"
-        ]
+        "components": ["heroAnimatedElement1", "heroAnimatedElement2", "heroAnimatedElement3"]
       }
     },
     {
@@ -606,11 +589,8 @@
       "condition": "all:var,hero.floatingMetrics.speedValue",
       "config": {
         "tag": "div",
-        "classes": "ank-position-absolute ank-bottom-3rem ank-left-0 ank-left-xl-MIN2rem ank-bg-info ank-color-dark ank-px-1_25rem ank-py-1rem ank-borderRadius-1rem ank-fs-1rem ank-fontWeight-bold ank-zIndex-30 ank-display-flex ank-alignItems-center ank-gap-0_75rem ank-boxShadow-0__6px__20px__rgbaSD59COM130COM246COM0_3ED ank-border-2px ank-bordercolor-textColor",
-        "components": [
-          "flash_onContainer",
-          "heroFloatingMetricsContainer"
-        ]
+        "classes": "ank-position-absolute ank-bottom-MIN1_5rem ank-left-0 ank-left-xl-MIN2rem ank-bg-info ank-color-dark ank-px-1_25rem ank-py-1rem ank-borderRadius-1rem ank-fs-1rem ank-fontWeight-bold ank-zIndex-30 ank-display-flex ank-alignItems-center ank-gap-0_75rem ank-boxShadow-0__6px__20px__rgbaSD59COM130COM246COM0_3ED ank-border-2px ank-bordercolor-textColor",
+        "components": ["flash_onContainer", "heroFloatingMetricsContainer"]
       }
     },
     {
@@ -619,9 +599,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-bg-bgColor ank-borderRadius-99rem ank-p-0_25rem",
-        "components": [
-          "flash_on"
-        ]
+        "components": ["flash_on"]
       }
     },
     {
@@ -630,10 +608,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-textAlign-left",
-        "components": [
-          "heroFloatingMetricsLabel",
-          "heroFloatingMetricsValue"
-        ]
+        "components": ["heroFloatingMetricsLabel", "heroFloatingMetricsValue"]
       }
     },
     {
@@ -642,9 +617,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-fs-1rem ank-opacity-90",
-        "components": [
-          "heroFloatingMetricsLabelText"
-        ]
+        "components": ["heroFloatingMetricsLabelText"]
       }
     },
     {
@@ -653,9 +626,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-fs-1_5rem ank-fontWeight-bold",
-        "components": [
-          "heroFloatingMetricsValueText"
-        ]
+        "components": ["heroFloatingMetricsValueText"]
       }
     },
     {
@@ -665,10 +636,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-position-absolute ank-top-20per ank-left-0 ank-left-xl-MIN2rem ank-bg-warning ank-color-dark ank-px-1rem ank-py-1rem ank-borderRadius-1rem ank-fs-1rem ank-fontWeight-bold ank-zIndex-30 ank-boxShadow-0__4px__15px__rgbaSD255COM193COM7COM0_3ED ank-border-2px__textColor ank-textAlign-center",
-        "components": [
-          "heroconversionLabel",
-          "heroConversionValue"
-        ]
+        "components": ["heroconversionLabel", "heroConversionValue"]
       }
     },
     {
@@ -677,9 +645,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-fs-1rem ank-opacity-75 ank-mb-0_125rem",
-        "components": [
-          "heroConversionLabelText"
-        ]
+        "components": ["heroConversionLabelText"]
       }
     },
     {
@@ -688,9 +654,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-fs-1_5rem ank-fontWeight-bolder",
-        "components": [
-          "heroConversionValueText"
-        ]
+        "components": ["heroConversionValueText"]
       }
     },
     {
@@ -699,10 +663,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-position-absolute ank-top-30per ank-right-MIN1_5rem ank-bg-purple ank-px-1rem ank-py-0_75rem ank-borderRadius-1rem ank-fs-1rem ank-fontWeight-bold ank-zIndex-25 ank-display-flex ank-alignItems-center ank-gap-0_375rem ank-boxShadow-0__3px__10px__rgbaSD147COM51COM234COM0_25ED ank-opacity-95 ank-color-light",
-        "components": [
-          "verified",
-          "heroVerifiedLabel"
-        ]
+        "components": ["verified", "heroVerifiedLabel"]
       }
     },
     {
@@ -711,10 +672,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-position-absolute ank-bottom-20per ank-right-0 ank-right-xl-MIN1_5rem ank-bg-teal ank-color-light ank-px-1rem ank-py-0_75rem ank-borderRadius-1rem ank-fs-1rem ank-fontWeight-bold ank-zIndex-25 ank-display-flex ank-alignItems-center ank-gap-0_375rem ank-boxShadow-0__3px__10px__rgbaSD20COM184COM166COM0_25ED ank-border-1px__textColor ank-opacity-95",
-        "components": [
-          "phone_android",
-          "heroMobileLabel"
-        ]
+        "components": ["phone_android", "heroMobileLabel"]
       }
     },
     {
@@ -725,9 +683,7 @@
         "id": "features-section",
         "tag": "section",
         "classes": "ank-width-100per ank-position-relative ank-bg-bgColor ank-py-6rem",
-        "components": [
-          "featuresSectionContainer"
-        ]
+        "components": ["featuresSectionContainer"]
       }
     },
     {
@@ -736,10 +692,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-width-100vw ank-px-1rem ank-boxSizing-borderMINbox ank-maxWidth-1280px ank-marginLeft-auto ank-marginRight-auto",
-        "components": [
-          "featuresSectionHeader",
-          "featuresSectionGrid"
-        ]
+        "components": ["featuresSectionHeader", "featuresSectionGrid"]
       }
     },
     {
@@ -748,10 +701,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-textAlign-center ank-mb-4rem",
-        "components": [
-          "featuresSectionTitle",
-          "featuresSectionSubtitle"
-        ]
+        "components": ["featuresSectionTitle", "featuresSectionSubtitle"]
       }
     },
     {
@@ -765,27 +715,19 @@
         "bindings": [
           {
             "to": "config.icon",
-            "sources": [
-              "icon"
-            ]
+            "sources": ["icon"]
           },
           {
             "to": "config.title",
-            "sources": [
-              "title"
-            ]
+            "sources": ["title"]
           },
           {
             "to": "config.description",
-            "sources": [
-              "description"
-            ]
+            "sources": ["description"]
           },
           {
             "to": "config.benefits",
-            "sources": [
-              "benefits"
-            ]
+            "sources": ["benefits"]
           }
         ]
       },
@@ -803,9 +745,7 @@
         "id": "services-section",
         "tag": "section",
         "classes": "ank-width-100per ank-position-relative ank-bg-bgColor ank-py-6rem",
-        "components": [
-          "servicesSectionContainer"
-        ]
+        "components": ["servicesSectionContainer"]
       }
     },
     {
@@ -814,10 +754,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-width-100vw ank-px-1rem ank-boxSizing-borderMINbox ank-maxWidth-1280px ank-marginLeft-auto ank-marginRight-auto",
-        "components": [
-          "servicesSectionHeader",
-          "servicesSectionGrid"
-        ]
+        "components": ["servicesSectionHeader", "servicesSectionGrid"]
       }
     },
     {
@@ -826,10 +763,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-textAlign-center ank-mb-64px ank-fsSELCHILDh2-2rem ank-fontWeightSELCHILDh2-bold ank-mbSELCHILDh2-16px ank-colorSELCHILDh2-titleColor ank-fsSELCHILDp-1_5rem ank-colorSELCHILDp-textColor ank-maxWidthSELCHILDp-700px ank-mxSELCHILDp-auto",
-        "components": [
-          "servicesSectionTitle",
-          "servicesSectionSubtitle"
-        ]
+        "components": ["servicesSectionTitle", "servicesSectionSubtitle"]
       }
     },
     {
@@ -843,33 +777,23 @@
         "bindings": [
           {
             "to": "config.icon",
-            "sources": [
-              "icon"
-            ]
+            "sources": ["icon"]
           },
           {
             "to": "config.title",
-            "sources": [
-              "title"
-            ]
+            "sources": ["title"]
           },
           {
             "to": "config.description",
-            "sources": [
-              "description"
-            ]
+            "sources": ["description"]
           },
           {
             "to": "config.benefits",
-            "sources": [
-              "benefits"
-            ]
+            "sources": ["benefits"]
           },
           {
             "to": "config.buttonLabel",
-            "sources": [
-              "buttonLabel"
-            ]
+            "sources": ["buttonLabel"]
           }
         ]
       },
@@ -886,9 +810,7 @@
         "id": "faq-section",
         "tag": "section",
         "classes": "ank-width-100per ank-position-relative ank-bg-bgColor ank-py-6rem",
-        "components": [
-          "faqSectionContainer"
-        ]
+        "components": ["faqSectionContainer"]
       }
     },
     {
@@ -897,9 +819,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-width-100vw ank-px-1rem ank-boxSizing-borderMINbox ank-maxWidth-1024px ank-marginLeft-auto ank-marginRight-auto",
-        "components": [
-          "faqSectionContent"
-        ]
+        "components": ["faqSectionContent"]
       }
     },
     {
@@ -907,11 +827,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "components": [
-          "faqSectionHeader",
-          "faqAccordionWrapper",
-          "faqSectionFooter"
-        ]
+        "components": ["faqSectionHeader", "faqAccordionWrapper", "faqSectionFooter"]
       }
     },
     {
@@ -920,10 +836,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-textAlign-center ank-mb-64px ank-fsSELCHILDh2-2rem ank-fontWeightSELCHILDh2-bold ank-mbSELCHILDh2-16px ank-colorSELCHILDh2-titleColor ank-fsSELCHILDp-1_5rem ank-colorSELCHILDp-textColor ank-maxWidthSELCHILDp-700px ank-mxSELCHILDp-auto",
-        "components": [
-          "faqSectionTitle",
-          "faqSectionSubtitle"
-        ]
+        "components": ["faqSectionTitle", "faqSectionSubtitle"]
       }
     },
     {
@@ -932,9 +845,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-maxWidth-800px ank-mx-auto",
-        "components": [
-          "faqAccordion"
-        ]
+        "components": ["faqAccordion"]
       }
     },
     {
@@ -943,10 +854,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-textAlign-center ank-mt-48px ank-fsSELCHILDp-1rem ank-colorSELCHILDp-textColor ank-mbSELCHILDp-24px",
-        "components": [
-          "faqFooterQuestion",
-          "faqFooterButton"
-        ]
+        "components": ["faqFooterQuestion", "faqFooterButton"]
       }
     },
     {
@@ -957,9 +865,7 @@
         "id": "testimonials-section",
         "tag": "section",
         "classes": "ank-width-100per ank-position-relative ank-bg-bgColor ank-py-6rem",
-        "components": [
-          "testimonialsSectionContainer"
-        ]
+        "components": ["testimonialsSectionContainer"]
       }
     },
     {
@@ -968,9 +874,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-width-100vw ank-px-1rem ank-boxSizing-borderMINbox ank-maxWidth-1280px ank-marginLeft-auto ank-marginRight-auto",
-        "components": [
-          "testimonialsSectionContent"
-        ]
+        "components": ["testimonialsSectionContent"]
       }
     },
     {
@@ -978,10 +882,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "components": [
-          "testimonialsSectionHeader",
-          "testimonialsSectionGrid"
-        ]
+        "components": ["testimonialsSectionHeader", "testimonialsSectionGrid"]
       }
     },
     {
@@ -990,10 +891,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-textAlign-center ank-mb-64px ank-fsSELCHILDh2-2rem ank-fontWeightSELCHILDh2-bold ank-mbSELCHILDh2-16px ank-colorSELCHILDh2-titleColor ank-fsSELCHILDp-1_5rem ank-colorSELCHILDp-textColor ank-maxWidthSELCHILDp-700px ank-mxSELCHILDp-auto",
-        "components": [
-          "testimonialsSectionTitle",
-          "testimonialsSectionSubtitle"
-        ]
+        "components": ["testimonialsSectionTitle", "testimonialsSectionSubtitle"]
       }
     },
     {
@@ -1007,45 +905,31 @@
         "bindings": [
           {
             "to": "config.name",
-            "sources": [
-              "name"
-            ]
+            "sources": ["name"]
           },
           {
             "to": "config.role",
-            "sources": [
-              "role"
-            ]
+            "sources": ["role"]
           },
           {
             "to": "config.company",
-            "sources": [
-              "company"
-            ]
+            "sources": ["company"]
           },
           {
             "to": "config.content",
-            "sources": [
-              "content"
-            ]
+            "sources": ["content"]
           },
           {
             "to": "config.rating",
-            "sources": [
-              "rating"
-            ]
+            "sources": ["rating"]
           },
           {
             "to": "config.avatar",
-            "sources": [
-              "avatar"
-            ]
+            "sources": ["avatar"]
           },
           {
             "to": "config.verified",
-            "sources": [
-              "verified"
-            ]
+            "sources": ["verified"]
           }
         ]
       },
@@ -1063,9 +947,7 @@
         "id": "final-cta-section",
         "tag": "section",
         "classes": "ank-width-100per ank-position-relative ank-bg-accentColor ank-py-6rem",
-        "components": [
-          "finalCtaContainer"
-        ]
+        "components": ["finalCtaContainer"]
       }
     },
     {
@@ -1074,9 +956,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-width-100vw ank-px-1rem ank-boxSizing-borderMINbox ank-maxWidth-1024px ank-marginLeft-auto ank-marginRight-auto",
-        "components": [
-          "finalCtaContent"
-        ]
+        "components": ["finalCtaContent"]
       }
     },
     {
@@ -1085,12 +965,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-textAlign-center",
-        "components": [
-          "finalCtaTitle",
-          "finalCtaSubtitle",
-          "finalCtaButtonsRow",
-          "finalCtaTrust"
-        ]
+        "components": ["finalCtaTitle", "finalCtaSubtitle", "finalCtaButtonsRow", "finalCtaTrust"]
       }
     },
     {
@@ -1099,10 +974,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-display-flex ank-flexDirection-column ank-flexDirection-sm-row ank-gap-16px ank-justifyContent-center ank-mb-32px ank-alignItems-stretch",
-        "components": [
-          "finalCtaPrimaryButton",
-          "finalCtaSecondaryButton"
-        ]
+        "components": ["finalCtaPrimaryButton", "finalCtaSecondaryButton"]
       }
     },
     {
@@ -1112,10 +984,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-display-flex ank-flexDirection-column ank-alignItems-center ank-gap-16px ank-opacity-70",
-        "components": [
-          "finalCtaTrustLine1",
-          "finalCtaTrustRow2"
-        ]
+        "components": ["finalCtaTrustLine1", "finalCtaTrustRow2"]
       }
     },
     {
@@ -1124,11 +993,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-display-flex ank-gap-16px ank-alignItems-center ank-fs-1rem ank-color-textColor",
-        "components": [
-          "finalCtaTrustSpanSupport",
-          "finalCtaTrustSpanReports",
-          "finalCtaTrustSpanSeo"
-        ]
+        "components": ["finalCtaTrustSpanSupport", "finalCtaTrustSpanReports", "finalCtaTrustSpanSeo"]
       }
     },
     {
@@ -1138,9 +1003,7 @@
         "id": "stats-strip-section",
         "tag": "section",
         "classes": "ank-width-100per ank-position-relative ank-bg-accentColor ank-py-6rem",
-        "components": [
-          "statsStripContainer"
-        ]
+        "components": ["statsStripContainer"]
       }
     },
     {
@@ -1149,10 +1012,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-width-100vw ank-px-1rem ank-boxSizing-borderMINbox ank-maxWidth-1024px ank-marginLeft-auto ank-marginRight-auto",
-        "components": [
-          "statsStripHeader",
-          "statsStripPanel"
-        ]
+        "components": ["statsStripHeader", "statsStripPanel"]
       }
     },
     {
@@ -1161,11 +1021,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-textAlign-center ank-mb-48px",
-        "components": [
-          "statsStripTitle",
-          "statsStripSubtitle",
-          "statsStripDescription"
-        ]
+        "components": ["statsStripTitle", "statsStripSubtitle", "statsStripDescription"]
       }
     },
     {
@@ -1174,9 +1030,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-bg-accentColor ank-borderRadius-12px ank-p-24px ank-color-textColor",
-        "components": [
-          "statsStripRow"
-        ]
+        "components": ["statsStripRow"]
       }
     },
     {
@@ -1185,11 +1039,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-display-flex ank-flexWrap-wrap ank-gap-2rem ank-justifyContent-center",
-        "components": [
-          "statsStripVisitsBlock",
-          "statsStripCtaBlock",
-          "statsStripAvgTimeBlock"
-        ]
+        "components": ["statsStripVisitsBlock", "statsStripCtaBlock", "statsStripAvgTimeBlock"]
       }
     },
     {
@@ -1198,10 +1048,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-textAlign-center",
-        "components": [
-          "statsStripVisitsValue",
-          "statsStripVisitsLabel"
-        ]
+        "components": ["statsStripVisitsValue", "statsStripVisitsLabel"]
       }
     },
     {
@@ -1210,9 +1057,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-fs-2rem ank-fontWeight-bold ank-mb-8px",
-        "components": [
-          "statsStripVisitsCounter"
-        ]
+        "components": ["statsStripVisitsCounter"]
       }
     },
     {
@@ -1221,10 +1066,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-textAlign-center",
-        "components": [
-          "statsStripCtaValue",
-          "statsStripCtaLabel"
-        ]
+        "components": ["statsStripCtaValue", "statsStripCtaLabel"]
       }
     },
     {
@@ -1233,9 +1075,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-fs-2rem ank-fontWeight-bold ank-mb-8px",
-        "components": [
-          "statsStripCtaCounter"
-        ]
+        "components": ["statsStripCtaCounter"]
       }
     },
     {
@@ -1244,10 +1084,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-textAlign-center",
-        "components": [
-          "statsStripAvgTimeValue",
-          "statsStripAvgTimeLabel"
-        ]
+        "components": ["statsStripAvgTimeValue", "statsStripAvgTimeLabel"]
       }
     },
     {
@@ -1256,9 +1093,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-fs-2rem ank-fontWeight-bold ank-mb-8px",
-        "components": [
-          "statsStripAvgTimeCounter"
-        ]
+        "components": ["statsStripAvgTimeCounter"]
       }
     },
     {
@@ -1268,11 +1103,7 @@
         "id": "conversion-note",
         "tag": "div",
         "classes": "ank-bg-bgColor ank-borderRadius-1rem ank-p-1_5rem ank-maxWidth-50rem ank-mx-auto ank-boxShadow-0__4px__20px__rgbaSD0COM0COM0COM0_1ED ank-border-2px ank-borderColor-success ank-borderOpacity-20 ank-textAlign-center ank-alignItems-center ank-maxWidth-1280px ank-marginLeft-auto ank-marginRight-auto ank-width-100vw ank-my-2rem ank-px-1rem ank-boxSizing-borderMINbox ank-bg-secondaryBgColor ank-position-relative",
-        "components": [
-          "conversionNoteHeader",
-          "conversionNoteDescription",
-          "conversionNoteHints"
-        ]
+        "components": ["conversionNoteHeader", "conversionNoteDescription", "conversionNoteHints"]
       }
     },
     {
@@ -1282,10 +1113,7 @@
         "id": "conversion-note-header",
         "tag": "div",
         "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-gap-1rem ank-mb-1rem",
-        "components": [
-          "conversionNoteHeaderIconContainer",
-          "conversionNoteHeaderTitle"
-        ]
+        "components": ["conversionNoteHeaderIconContainer", "conversionNoteHeaderTitle"]
       }
     },
     {
@@ -1294,9 +1122,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-bg-secondaryAccentColor ank-borderRadius-99rem ank-w-50px ank-h-50px ank-d-flex ank-alignItems-center ank-justifyContent-center",
-        "components": [
-          "help_outline"
-        ]
+        "components": ["help_outline"]
       }
     },
     {
@@ -1306,9 +1132,7 @@
         "id": "conversion-note-description",
         "tag": "div",
         "classes": "ank-bg-textColor ank-borderRadius-1rem ank-p-1_25rem ank-mb-1rem",
-        "components": [
-          "conversionNoteDescriptionText"
-        ]
+        "components": ["conversionNoteDescriptionText"]
       }
     },
     {
@@ -1318,11 +1142,7 @@
         "id": "conversion-note-hints",
         "tag": "div",
         "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-1fr__1fr__1fr ank-gap-1rem ank-textAlign-center",
-        "components": [
-          "conversionNoteHint1",
-          "conversionNoteHint2",
-          "conversionNoteHint3"
-        ]
+        "components": ["conversionNoteHint1", "conversionNoteHint2", "conversionNoteHint3"]
       }
     },
     {
@@ -1331,10 +1151,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-bg-accentColor ank-borderRadius-0_75rem ank-p-1rem ank-color-textColor",
-        "components": [
-          "conversionNoteHint1Label",
-          "conversionNoteHint1Value"
-        ]
+        "components": ["conversionNoteHint1Label", "conversionNoteHint1Value"]
       }
     },
     {
@@ -1343,9 +1160,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center",
-        "components": [
-          "arrow_forward"
-        ]
+        "components": ["arrow_forward"]
       }
     },
     {
@@ -1354,10 +1169,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-bg-secondaryAccentColor ank-borderRadius-0_75rem ank-p-1rem ank-color-textColor",
-        "components": [
-          "conversionNoteHint3Label",
-          "conversionNoteHint3Value"
-        ]
+        "components": ["conversionNoteHint3Label", "conversionNoteHint3Value"]
       }
     },
     {
@@ -1503,9 +1315,7 @@
         "initialValues": {
           "activeStepId": "1"
         },
-        "components": [
-          "interactiveProcessShell"
-        ]
+        "components": ["interactiveProcessShell"]
       }
     },
     {
@@ -1514,11 +1324,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-boxSizing-borderMINbox ank-m-auto ank-maxWidth-1280px ank-px-1rem ank-w-100vw",
-        "components": [
-          "interactiveProcessHeader",
-          "interactiveProcessMobileLayout",
-          "interactiveProcessDesktopTabs"
-        ]
+        "components": ["interactiveProcessHeader", "interactiveProcessMobileLayout", "interactiveProcessDesktopTabs"]
       }
     },
     {
@@ -1527,9 +1333,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-textAlign-center ank-mb-64px",
-        "components": [
-          "interactiveProcessTitle"
-        ]
+        "components": ["interactiveProcessTitle"]
       }
     },
     {
@@ -1548,9 +1352,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-display-flex ank-display-lg-none ank-flexDirection-column ank-gap-48px",
-        "components": [
-          "interactiveProcessMobilePanel"
-        ]
+        "components": ["interactiveProcessMobilePanel"]
       }
     },
     {
@@ -1559,10 +1361,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-bg-secondaryBgColor ank-borderRadius-12px ank-p-24px",
-        "components": [
-          "interactiveProcessMobileSidebarTitle",
-          "interactiveProcessMobileAccordion"
-        ]
+        "components": ["interactiveProcessMobileSidebarTitle", "interactiveProcessMobileAccordion"]
       }
     },
     {
@@ -1720,7 +1519,7 @@
       "config": {
         "tag": "h1",
         "text": "",
-        "classes": "ank-fs-3rem ank-fs-lg-5rem ank-fontWeight-bold ank-lh-3_3rem ank-lh-lg-5_5rem ank-mb-1_25rem textGradientVALSVAL2NsecondaryAccentColorVAL2NVAL3NsecondaryTitleColorVAL3NVL135degVL"
+        "classes": "ank-fs-2rem ank-fs-lg-3rem ank-fontWeight-bold ank-lh-2_6rem ank-lh-lg-3_5rem ank-mb-1_25rem ank-mt-0 textGradientVALSVAL2NsecondaryAccentColorVAL2NVAL3NsecondaryTitleColorVAL3NVL135degVL"
       }
     },
     {
@@ -1766,9 +1565,7 @@
         "bindings": [
           {
             "to": "config.text",
-            "sources": [
-              "$item"
-            ]
+            "sources": ["$item"]
           }
         ]
       },
