@@ -5,13 +5,24 @@
     "zoolandingpage.com"
   ],
   "defaultPageId": "default",
+  "notFoundPageId": "not-found",
   "routes": [
     {
       "path": "/",
       "pageId": "default",
       "label": "Home"
+    },
+    {
+      "path": "/404",
+      "pageId": "not-found",
+      "label": "Página no encontrada"
     }
   ],
+  "sitemap": {
+    "excludePaths": [
+      "/404"
+    ]
+  },
   "site": {
     "theme": {
       "defaultMode": "light",

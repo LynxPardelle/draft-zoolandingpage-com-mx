@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "pageId": "not-found",
+  "domain": "zoolandingpage.com.mx",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "notFoundPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "canonical-local-draft",
+    "routePurpose": "not-found-recovery"
+  },
+  "seo": {
+    "title": {
+      "es": "Página no encontrada | ZoolandingPage",
+      "en": "Page not found | ZoolandingPage"
+    },
+    "description": {
+      "es": "La página que buscabas no está disponible. Vuelve al inicio de ZoolandingPage o revisa rutas útiles para continuar.",
+      "en": "The page you were looking for is not available. Return to ZoolandingPage home or use a helpful path to continue."
+    },
+    "openGraph": {
+      "title": {
+        "es": "Página no encontrada | ZoolandingPage",
+        "en": "Page not found | ZoolandingPage"
+      },
+      "description": {
+        "es": "La página que buscabas no está disponible. Vuelve al inicio de ZoolandingPage o revisa rutas útiles para continuar.",
+        "en": "The page you were looking for is not available. Return to ZoolandingPage home or use a helpful path to continue."
+      },
+      "image": "https://zoolandingpage.com.mx/assets/og-1200x630.svg",
+      "url": "https://zoolandingpage.com.mx/404",
+      "type": "website"
+    },
+    "twitter": {
+      "title": {
+        "es": "Página no encontrada | ZoolandingPage",
+        "en": "Page not found | ZoolandingPage"
+      },
+      "description": {
+        "es": "La página que buscabas no está disponible. Vuelve al inicio de ZoolandingPage o revisa rutas útiles para continuar.",
+        "en": "The page you were looking for is not available. Return to ZoolandingPage home or use a helpful path to continue."
+      },
+      "image": "https://zoolandingpage.com.mx/assets/og-1200x630.svg",
+      "card": "summary_large_image"
+    },
+    "canonical": "https://zoolandingpage.com.mx/404",
+    "robots": "noindex,follow",
+    "keywords": {
+      "es": [
+        "pagina no encontrada",
+        "ZoolandingPage",
+        "landing page"
+      ],
+      "en": [
+        "page not found",
+        "ZoolandingPage",
+        "landing page"
+      ]
+    }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Página no encontrada | ZoolandingPage",
+        "description": "La página que buscabas no está disponible. Vuelve al inicio de ZoolandingPage o revisa rutas útiles para continuar.",
+        "url": "https://zoolandingpage.com.mx/404",
+        "inLanguage": "es"
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "home",
+      "rutas"
+    ],
+    "scrollMilestones": [
+      50,
+      100
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "domain": "zoolandingpage.com.mx",
+  "pageId": "not-found",
+  "lang": "es",
+  "dictionary": {
+    "hero": {
+      "eyebrow": "Página no encontrada",
+      "title": "Esta ruta no está publicada.",
+      "lead": "Puede que el enlace haya cambiado, que tenga un error de escritura o que la página ya no exista. Puedes volver al inicio y continuar desde las secciones principales.",
+      "primaryLabel": "Volver al inicio",
+      "secondaryLabel": "Ver servicios"
+    },
+    "signal": {
+      "code": "404",
+      "title": "La página no está disponible.",
+      "lead": "El sitio sigue activo. Esta respuesta se muestra en la URL original para evitar redirecciones innecesarias."
+    },
+    "routes": {
+      "title": "Rutas útiles para continuar.",
+      "lead": "Si buscabas información sobre una landing page, estas secciones suelen resolver el siguiente paso.",
+      "items": [
+        {
+          "label": "Inicio de ZoolandingPage"
+        },
+        {
+          "label": "Servicios para entender qué incluye"
+        },
+        {
+          "label": "Proceso para conocer cómo se publica"
+        }
+      ]
+    },
+    "ui": {
+      "controls": {
+        "languageToggle": "Cambiar idioma"
+      },
+      "accessibility": {
+        "skipToContent": "Saltar al contenido principal",
+        "primaryNavigation": "Navegación principal",
+        "mobileMenuAriaLabel": "Menú de navegación",
+        "openMenu": "Abrir menú",
+        "dialog": "Diálogo"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Zoo Landing Page. Todos los derechos reservados.",
+      "actions": {
+        "close": "Cerrar"
+      },
+      "legal": {
+        "title": "Legal",
+        "terms": {
+          "icon": "§",
+          "link": "Términos de servicio",
+          "title": "Términos de servicio",
+          "intro": "Estos términos regulan el uso de esta página.",
+          "sections": [
+            "El contenido se proporciona con fines informativos y puede cambiar sin previo aviso.",
+            "No se permite intentar accesos no autorizados ni interferir con la operación del sitio."
+          ]
+        },
+        "data": {
+          "icon": "◌",
+          "link": "Privacidad de datos",
+          "title": "Privacidad de datos",
+          "intro": "Usamos datos técnicos mínimos para operar y mejorar el sitio.",
+          "points": [
+            "No se requieren datos personales para navegar esta página.",
+            "Las métricas técnicas ayudan a priorizar correcciones y mejoras."
+          ],
+          "consentNote": "Puedes actualizar tus preferencias cuando el sitio solicite consentimiento."
+        }
+      }
+    }
+  }
+}
