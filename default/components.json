@@ -598,7 +598,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-bg-bgColor ank-borderRadius-99rem ank-p-0_25rem",
+        "classes": "ank-bg-bgColor ank-borderRadius-99rem ank-width-1_5rem ank-height-1_5rem ank-p-0_25rem ank-display-flex ank-alignItems-center ank-justifyContent-center ank-flexShrink-0",
         "components": ["flash_on"]
       }
     },
@@ -1121,7 +1121,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-bg-secondaryAccentColor ank-borderRadius-99rem ank-w-50px ank-h-50px ank-d-flex ank-alignItems-center ank-justifyContent-center",
+        "classes": "ank-bg-secondaryAccentColor ank-borderRadius-99rem ank-width-50px ank-height-50px ank-display-flex ank-alignItems-center ank-justifyContent-center ank-flexShrink-0",
         "components": ["help_outline"]
       }
     },
@@ -1244,7 +1244,7 @@
       "type": "icon",
       "config": {
         "iconName": "speed",
-        "classes": "ank-color-textColor ank-fs-1rem"
+        "classes": "ank-color-textColor ank-width-1rem ank-height-1rem ank-display-block ank-flexShrink-0"
       }
     },
     {
@@ -1252,7 +1252,7 @@
       "type": "icon",
       "config": {
         "iconName": "security",
-        "classes": "ank-color-textColor ank-fs-1rem"
+        "classes": "ank-color-textColor ank-width-1rem ank-height-1rem ank-display-block ank-flexShrink-0"
       }
     },
     {
@@ -1260,7 +1260,7 @@
       "type": "icon",
       "config": {
         "iconName": "analytics",
-        "classes": "ank-color-textColor ank-fs-1rem"
+        "classes": "ank-color-textColor ank-width-1rem ank-height-1rem ank-display-block ank-flexShrink-0"
       }
     },
     {
@@ -1268,7 +1268,7 @@
       "type": "icon",
       "config": {
         "iconName": "flash_on",
-        "classes": "ank-color-info ank-fs-1rem"
+        "classes": "ank-color-info ank-width-1rem ank-height-1rem ank-display-block ank-flexShrink-0"
       }
     },
     {
@@ -1276,7 +1276,7 @@
       "type": "icon",
       "config": {
         "iconName": "verified",
-        "classes": "ank-color-textColor ank-fs-1rem"
+        "classes": "ank-color-textColor ank-width-1rem ank-height-1rem ank-display-block ank-flexShrink-0"
       }
     },
     {
@@ -1284,7 +1284,7 @@
       "type": "icon",
       "config": {
         "iconName": "phone_android",
-        "classes": "ank-color-light ank-fs-1rem"
+        "classes": "ank-color-light ank-width-1rem ank-height-1rem ank-display-block ank-flexShrink-0"
       }
     },
     {
@@ -1292,7 +1292,7 @@
       "type": "icon",
       "config": {
         "iconName": "help_outline",
-        "classes": "ank-color-textColor ank-fs-1_5rem"
+        "classes": "ank-color-textColor ank-width-1_5rem ank-height-1_5rem ank-display-block ank-flexShrink-0"
       }
     },
     {
@@ -1300,7 +1300,7 @@
       "type": "icon",
       "config": {
         "iconName": "arrow_forward",
-        "classes": "ank-color-secondaryAccentColor ank-fs-1_5rem"
+        "classes": "ank-color-secondaryAccentColor ank-width-1_5rem ank-height-1_5rem ank-display-block ank-flexShrink-0"
       }
     },
     {
