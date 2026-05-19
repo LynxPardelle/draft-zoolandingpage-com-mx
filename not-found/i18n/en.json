@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "domain": "zoolandingpage.com.mx",
+  "pageId": "not-found",
+  "lang": "en",
+  "dictionary": {
+    "hero": {
+      "eyebrow": "Page not found",
+      "title": "This route is not published.",
+      "lead": "The link may have changed, may include a typo, or may no longer exist. You can return home and continue from the main sections.",
+      "primaryLabel": "Back to home",
+      "secondaryLabel": "View services"
+    },
+    "signal": {
+      "code": "404",
+      "title": "The page is not available.",
+      "lead": "The site is still active. This response is rendered at the original URL to avoid unnecessary redirects."
+    },
+    "routes": {
+      "title": "Useful paths to continue.",
+      "lead": "If you were looking for landing page information, these sections usually solve the next step.",
+      "items": [
+        {
+          "label": "ZoolandingPage home"
+        },
+        {
+          "label": "Services to understand what is included"
+        },
+        {
+          "label": "Process to see how publishing works"
+        }
+      ]
+    },
+    "ui": {
+      "controls": {
+        "languageToggle": "Change language"
+      },
+      "accessibility": {
+        "skipToContent": "Skip to main content",
+        "primaryNavigation": "Primary navigation",
+        "mobileMenuAriaLabel": "Navigation menu",
+        "openMenu": "Open menu",
+        "dialog": "Dialog"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Zoo Landing Page. All rights reserved.",
+      "actions": {
+        "close": "Close"
+      },
+      "legal": {
+        "title": "Legal",
+        "terms": {
+          "icon": "§",
+          "link": "Terms of service",
+          "title": "Terms of service",
+          "intro": "These terms govern the use of this page.",
+          "sections": [
+            "Content is provided for informational purposes and may change without notice.",
+            "Unauthorized access attempts or interference with site operation are not allowed."
+          ]
+        },
+        "data": {
+          "icon": "◌",
+          "link": "Data privacy",
+          "title": "Data privacy",
+          "intro": "We use minimal technical data to operate and improve the site.",
+          "points": [
+            "No personal data is required to browse this page.",
+            "Technical metrics help prioritize fixes and improvements."
+          ],
+          "consentNote": "You can update your preferences when the site asks for consent."
+        }
+      }
+    }
+  }
+}
