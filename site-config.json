@@ -80,6 +80,8 @@
       "title": "ZoolandingPage",
       "description": "Landing page service focused on conversion, analytics, and rapid publishing.",
       "canonicalOrigin": "https://zoolandingpage.com.mx",
+      "enforceCanonicalHost": true,
+      "forceHttps": true,
       "defaultImage": "https://zoolandingpage.com.mx/assets/og-1200x630.svg",
       "openGraph": {
         "type": "website",
@@ -112,6 +114,107 @@
       },
       "robots": "index,follow,max-image-preview:large"
     },
+    "hostOverrides": {
+      "zoolandingpage.com": {
+        "seo": {
+          "canonicalOrigin": "https://zoolandingpage.com.mx",
+          "enforceCanonicalHost": true,
+          "forceHttps": true
+        },
+        "googleTag": {
+          "enabled": true,
+          "environments": {
+            "local": false,
+            "test": true,
+            "production": true
+          },
+          "measurementIds": [
+            "G-QRWR768FCM"
+          ],
+          "sendPageView": false,
+          "attribution": {
+            "storage": "session",
+            "ttlDays": 90
+          },
+          "events": {
+            "page_view": "page_view",
+            "whatsapp_click": {
+              "name": "lead_conversion_whatsapp",
+              "params": {
+                "pyme_id": "zoolandingpagecommx"
+              }
+            },
+            "cta_click": "cta_click",
+            "nav_click": "nav_click",
+            "scroll_depth": "scroll_depth"
+          }
+        }
+      },
+      "test.zoolandingpage.com": {
+        "seo": {
+          "canonicalOrigin": "https://zoolandingpage.com.mx",
+          "enforceCanonicalHost": false,
+          "forceHttps": true
+        },
+        "googleTag": {
+          "enabled": false,
+          "environments": {
+            "local": false,
+            "test": false,
+            "production": false
+          },
+          "sendPageView": false,
+          "attribution": {
+            "storage": "session",
+            "ttlDays": 90
+          },
+          "events": {
+            "page_view": "page_view",
+            "whatsapp_click": {
+              "name": "lead_conversion_whatsapp",
+              "params": {
+                "pyme_id": "zoolandingpagecommx"
+              }
+            },
+            "cta_click": "cta_click",
+            "nav_click": "nav_click",
+            "scroll_depth": "scroll_depth"
+          }
+        }
+      },
+      "test.zoolandingpage.com.mx": {
+        "seo": {
+          "canonicalOrigin": "https://zoolandingpage.com.mx",
+          "enforceCanonicalHost": false,
+          "forceHttps": true
+        },
+        "googleTag": {
+          "enabled": false,
+          "environments": {
+            "local": false,
+            "test": false,
+            "production": false
+          },
+          "sendPageView": false,
+          "attribution": {
+            "storage": "session",
+            "ttlDays": 90
+          },
+          "events": {
+            "page_view": "page_view",
+            "whatsapp_click": {
+              "name": "lead_conversion_whatsapp",
+              "params": {
+                "pyme_id": "zoolandingpagecommx"
+              }
+            },
+            "cta_click": "cta_click",
+            "nav_click": "nav_click",
+            "scroll_depth": "scroll_depth"
+          }
+        }
+      }
+    },
     "i18n": {
       "defaultLanguage": "es",
       "supportedLanguages": [
@@ -135,6 +238,7 @@
       "sessionId": "zoo-landing-session-id",
       "allowAnalytics": "zoo-landing-allow-analytics",
       "analyticsConsentSnooze": "zoo-landing-allow-analytics-snooze",
+      "adAttribution": "zoo-landing-ad-attribution",
       "pageViewCount": "zoo-landing-page-view-count"
     },
     "features": {
@@ -243,6 +347,34 @@
             "by": 1
           }
         ]
+      },
+      "googleTag": {
+        "enabled": true,
+        "environments": {
+          "local": false,
+          "test": true,
+          "production": true
+        },
+        "measurementIds": [
+          "G-QRWR768FCM"
+        ],
+        "sendPageView": false,
+        "attribution": {
+          "storage": "session",
+          "ttlDays": 90
+        },
+        "events": {
+          "page_view": "page_view",
+          "whatsapp_click": {
+            "name": "lead_conversion_whatsapp",
+            "params": {
+              "pyme_id": "zoolandingpagecommx"
+            }
+          },
+          "cta_click": "cta_click",
+          "nav_click": "nav_click",
+          "scroll_depth": "scroll_depth"
+        }
       }
     }
   },
