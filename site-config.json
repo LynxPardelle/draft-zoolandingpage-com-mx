@@ -118,7 +118,7 @@
       "zoolandingpage.com": {
         "seo": {
           "canonicalOrigin": "https://zoolandingpage.com.mx",
-          "enforceCanonicalHost": true,
+          "enforceCanonicalHost": false,
           "forceHttps": true
         },
         "googleTag": {
