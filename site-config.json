@@ -118,7 +118,7 @@
       "zoolandingpage.com": {
         "seo": {
           "canonicalOrigin": "https://zoolandingpage.com.mx",
-          "enforceCanonicalHost": true,
+          "enforceCanonicalHost": false,
           "forceHttps": true
         },
         "googleTag": {
@@ -131,38 +131,6 @@
           "measurementIds": [
             "G-QRWR768FCM"
           ],
-          "sendPageView": false,
-          "attribution": {
-            "storage": "session",
-            "ttlDays": 90
-          },
-          "events": {
-            "page_view": "page_view",
-            "whatsapp_click": {
-              "name": "lead_conversion_whatsapp",
-              "params": {
-                "pyme_id": "zoolandingpagecommx"
-              }
-            },
-            "cta_click": "cta_click",
-            "nav_click": "nav_click",
-            "scroll_depth": "scroll_depth"
-          }
-        }
-      },
-      "test.zoolandingpage.com": {
-        "seo": {
-          "canonicalOrigin": "https://zoolandingpage.com.mx",
-          "enforceCanonicalHost": false,
-          "forceHttps": true
-        },
-        "googleTag": {
-          "enabled": false,
-          "environments": {
-            "local": false,
-            "test": false,
-            "production": false
-          },
           "sendPageView": false,
           "attribution": {
             "storage": "session",
@@ -381,7 +349,6 @@
   "environments": {
     "test": {
       "aliases": [
-        "test.zoolandingpage.com",
         "test.zoolandingpage.com.mx"
       ]
     }
